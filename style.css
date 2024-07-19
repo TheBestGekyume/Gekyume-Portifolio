@@ -1,0 +1,31 @@
+body{
+    /* height: 100vh;
+    width: 100vw; */
+    color: #fff;
+    background-color: #222;
+}
+
+nav.navbar{
+
+}
+
+nav.navbar a {
+    color: #fff;
+    transition-property: hover;
+    transition: 400ms;
+    border: 1px solid transparent;
+    padding-inline: 0 ;
+    padding-bottom: 1px;
+    margin-inline: 40px;
+}
+
+nav.navbar a:hover{
+    transition: 600ms;
+    color: #555;
+    border-bottom: 1px solid #999;
+
+}
+
+div.row{
+   margin: 0;
+}
