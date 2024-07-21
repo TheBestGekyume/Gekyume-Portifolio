@@ -5,15 +5,19 @@ body{
     background-color: #333;
 }
 
+h1{
+    text-align: center;
+}
+
 nav.navbar{
-    margin-bottom: 2rem;    
+    /* margin-bottom: 2rem;     */
 }
 
 nav.navbar a {
-    color: #fff;
+    color: #bbb;
     transition-property: hover;
     transition: 400ms;
-    border: 1px solid transparent;
+    border-bottom: 1px solid transparent;
     padding-inline: 0 ;
     padding-bottom: 1px;
     margin-inline: 40px;
@@ -21,9 +25,15 @@ nav.navbar a {
 
 nav.navbar a:hover{
     transition: 600ms;
-    color: #555;
-    border-bottom: 1px solid #999;
+    color: #fff;
+    border-bottom: 1px solid #fff;
 
+}
+
+section#introducao{
+    height: 400px;
+    background-color: #41004114;
+    margin-bottom: 5rem;
 }
 
 div.row{
