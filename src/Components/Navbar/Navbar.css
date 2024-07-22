@@ -1,0 +1,67 @@
+.navbar-style {
+    background-color: black;
+    color: white;
+}
+
+div.container-fluid {
+    padding-block: 5px;
+}
+
+nav.navbar h1.navbar-brand {
+    font-family: "Kode Mono", monospace;
+    font-size: 34px;
+    background-image: linear-gradient(to right bottom, #bf00ff, #bf00ff50, #bf00ff);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    padding: 0;
+    margin-inline: 40px;
+    margin-bottom: 0;
+    transition: ease;
+    cursor: default;
+}
+
+nav.navbar h1.navbar-brand a {
+    text-decoration: none;
+    border: 0;
+}
+
+nav.navbar h1.navbar-brand:hover {
+    animation: gradienteAnimacao 1.5s ease;
+}
+
+
+@keyframes gradienteAnimacao {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+div.collapse a {
+    padding-block: 0px;
+    margin-inline: 40px;
+    font-size: 18px;
+    color: #666;
+    transition: transparent 600ms;
+}
+
+div.collapse a:hover {
+    transition: 600ms;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+div.collapse a:focus {
+    transition: 600ms;
+    color: #bf00ff;
+    border-bottom-color: #bf00ff98;
+}
+
