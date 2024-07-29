@@ -7,23 +7,25 @@ section#header{
     margin-bottom: 5rem;
 }
 
+/* .svg-group {
+    display: inline-block;
+    text-align: center;
+    width: max-content; 
+    margin-top: 10px;
+  } */
 
 
-svg{
-    max-width:4vw ;
-    margin-top: 2rem;
-    margin-inline:10px;
-    fill: rgb(255, 255, 255);
-    transition: 0.5s;
-    border: 1px solid transparent;
-    padding: 10px;
+  .svg-group {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
 }
 
-svg:hover{
-    fill: #bf00ff;
-}
 
-section#header div{
+  
+
+section#header div.div-content{
     margin-block: 100px;
     max-width: 60vw;
     /* max-height: 75vh; */
@@ -36,26 +38,25 @@ section#header div{
     padding: 2rem;
     border: 1px solid transparent;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 5px #bf00ff2f;
+    box-shadow: 0px 0px 5px 2px #bf00ff2f;
     background-color: #000000da;
     transition: 1s;
 }
 
-section#header div:hover{
-   
-    box-shadow: 0px 0px 15px 12px #bf00ff50;
-    background-color: #000000f3;
+section#header div.div-content:hover{
+    box-shadow: 0px 0px 50px 5px #bf00ff50;
+    background-color: #000000f9;
 }
 
-section#header div h3::before {
+section#header div.div-content h3::before {
     content: "{ ";
 }
 
-section#header div h3::after {
+section#header div.div-content h3::after {
     content: " }";
 }
 
-section#header div span{
+section#header div.div-content span{
     color: #bf00ff;
 }
 
@@ -72,3 +73,4 @@ section#header p{
 section#header h1{
     font-size: 48px;
 }
+
