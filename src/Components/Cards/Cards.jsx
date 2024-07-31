@@ -2,7 +2,7 @@ import "./Cards.css";
 
 export function Cards() {
   return (
-    <div class="row row-cols-1 row-cols-md-4">
+      <>
       <div class="col">
         <div class="card">
           <img
@@ -58,6 +58,6 @@ export function Cards() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
