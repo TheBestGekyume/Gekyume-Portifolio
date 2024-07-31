@@ -58,13 +58,24 @@ section#header p {
 }
 
 section#header p {
+    text-align: center;
     font-size: 20px;
-    margin-top: 2rem;
+    padding-inline: 3rem;
 }
+
+/* section#header p:first-of-type {
+    margin-top: 10px;
+} */
 
 section#header h1 {
     font-size: 48px;
 }
+
+section#header h3 {
+    margin-block: 2.5rem ;
+    text-wrap: nowrap;
+}
+
 
 
 @media (max-width: 768px) {
@@ -83,7 +94,8 @@ section#header h1 {
 
     section#header p {
         font-size: 18px;
-        margin-top: 1.5rem;
+        padding: 0;
+        /* margin-top: 1.5rem; */
     }
 }
 

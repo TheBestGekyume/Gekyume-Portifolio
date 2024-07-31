@@ -13,8 +13,7 @@ div.carousel-item:hover{
 
 
 div#carouselExampleIndicators{
-    width: 50vw;
+    width: 80vw;
     margin: 0 auto;
     border: 2px black solid;
-
 }
