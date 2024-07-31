@@ -17,7 +17,7 @@ export function Header() {
           <span> Análise e Desenvolvimento de Sistemas </span>e utilizo
           principalmente <span> React.js </span>para estruturar os meus projetos
           Front-end. Tenho conhecimento sólido em{" "}
-          <span>Lógica de Programação</span>, <span>C</span>, <span>HTML5</span>
+          <span>Lógica de Programação</span>, <span>C</span>,<span> HTML5</span>
           ,<span> CSS3</span>, <span>JavaScript</span>
         </p>
 

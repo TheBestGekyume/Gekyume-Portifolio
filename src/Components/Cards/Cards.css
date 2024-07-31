@@ -1,3 +1,20 @@
-div.row {
-    margin: 0;
+
+div.carousel-item{
+    opacity: 0.5;
+    border: 1px red solid;
+    transition: 750ms;
+    /* background: radial-gradient(circle, rgba(0,0,0,1) 75%, rgba(113,0,150,1) 90%, rgba(113,0,150,1) 100%);  */
+    background-color: currentColor;
+}
+
+div.carousel-item:hover{
+    opacity: 1;
+}
+
+
+div#carouselExampleIndicators{
+    width: 50vw;
+    margin: 0 auto;
+    border: 2px black solid;
+
 }
