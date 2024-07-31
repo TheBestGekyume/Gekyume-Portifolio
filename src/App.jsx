@@ -13,8 +13,9 @@ export function App() {
 
     {/*  FAZER OS CARD COM BACKGROUND IMAGEM COM OPACIDADE BAIXA E AO CLICAR APARECER MODAL */}
 
-    <Cards/>
-    
+    <div class="row row-cols-1 row-cols-md-4">
+      <Cards/>
+    </div>
     </div>
   );
 }

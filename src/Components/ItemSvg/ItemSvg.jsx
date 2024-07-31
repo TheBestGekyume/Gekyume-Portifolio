@@ -1,5 +1,7 @@
 import "./ItemSvg.css";
 
+// https://simpleicons.org
+
 export function ItemSvg({ title, path, color, link }) {
     return (
         <a href={link} target="_blank" rel="noopener noreferrer">
