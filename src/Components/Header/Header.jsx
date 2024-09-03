@@ -1,12 +1,11 @@
 import "./Header.css";
 import React from "react";
-// import { ItemSvg } from "../ItemSvg/ItemSvg";
 
 export function Header({ children }) {
   return (
     <section id="header">
       <div className="div-content">
-        <h1>Boa-Vindas ao Meu Portifólio!</h1>
+        <h2>Boa-Vindas ao Meu Portifólio!</h2>
 
         <h3>
           <span>Desenvolvedor Front-End</span>

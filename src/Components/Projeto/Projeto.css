@@ -1,19 +1,37 @@
-
-div.carousel-item{
-    opacity: 0.5;
-    border: 1px red solid;
-    transition: 750ms;
-    /* background: radial-gradient(circle, rgba(0,0,0,1) 75%, rgba(113,0,150,1) 90%, rgba(113,0,150,1) 100%);  */
-    background-color: currentColor;
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    opacity: 0;
+    transition: 350ms;
+    border-radius: var(--bs-border-radius);
 }
 
-div.carousel-item:hover{
+.overlay:hover {
     opacity: 1;
+    background: #00000090;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 20px 8px #7a7a7abf;
+}
+
+a{
+    color: transparent;
 }
 
 
-div#carouselExampleIndicators{
-    width: 80vw;
-    margin: 0 auto;
-    border: 2px black solid;
+div.card{
+    background-color: transparent !important;
+}
+
+p.card-text {
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    p.card-text {
+        font-size: 10px;
+    }
 }

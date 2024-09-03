@@ -1,5 +1,5 @@
 section#header {
-    background:url(../../Images/header-bg.jpg) no-repeat bottom;
+    background:url(../../../Assets/Images/header-bg.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -15,11 +15,10 @@ section#header {
     text-align: center;
 }
 
-
 section#header div.div-content {
     padding-block: 5vh;
     max-width: 60vw;
-    height: fit-content;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,10 +49,9 @@ section#header div.div-content span {
     color: #bf00ff;
 }
 
-section#header h1,
+section#header h2,
 section#header h3,
 section#header p {
-    font-family: "Ubuntu", sans-serif;
     text-align: center;
 }
 
@@ -63,11 +61,7 @@ section#header p {
     padding-inline: 3rem;
 }
 
-/* section#header p:first-of-type {
-    margin-top: 10px;
-} */
-
-section#header h1 {
+section#header h2 {
     font-size: 48px;
 }
 
@@ -77,14 +71,13 @@ section#header h3 {
 }
 
 
-
 @media (max-width: 768px) {
 
     section#header div.div-content {
         max-width: 80vw;
     }
 
-    section#header h1 {
+    section#header h2 {
         font-size: 36px;
     }
 
