@@ -4,7 +4,7 @@ export function Projeto({ imageSrc, title, link, description, bgColor }) {
   return (
     <a href={link} target="_blank">
       <div className="col">
-        <div className="card text-bg-dark pt-1 text-decoration-none">
+        <div className="card text-bg-dark text-decoration-none">
         <h5 className="card-title d-block d-md-none text-center fw-bold">{title}</h5>
 
           <img src={imageSrc} className="card-img" alt="..." />

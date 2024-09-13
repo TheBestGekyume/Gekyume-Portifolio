@@ -22,10 +22,6 @@ a{
 }
 
 
-div.card{
-    background-color: transparent !important;
-}
-
 p.card-text {
     text-align: justify;
 }
