@@ -12,11 +12,11 @@ export function Header({ children }) {
         </h3>
 
         <p>
-          Olá! Meu nome é <span>Gekyume</span>, sou estudante de{" "}
+          Olá! Meu nome é <span>Gekyume</span>, sou estudante de
           <span> Análise e Desenvolvimento de Sistemas </span>e utilizo
           principalmente <span> React.js </span>para estruturar os meus projetos
           Front-end.
-          Tenho conhecimento sólido e experiencia em{" "}
+          Tenho conhecimento sólido e experiencia em
           <span>Lógica de Programação</span>, <span>C</span>,<span> HTML5</span>
           ,<span> CSS3</span> e <span>JavaScript</span>.
         </p>

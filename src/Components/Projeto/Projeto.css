@@ -1,3 +1,14 @@
+img{
+    width: 100% ;
+    background-color: black;
+}
+
+.card{
+    margin-bottom: 1rem;
+    background-color: #222 !important;
+    border:#222 1.5px solid ;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -22,16 +33,22 @@ a{
 }
 
 
-div.card{
-    background-color: transparent !important;
-}
-
 p.card-text {
     text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
+
+    .overlay{
+        padding: 0.4rem;
+    }
+
     p.card-text {
         font-size: 10px;
     }
+    
+    h5.card-title{
+        font-size: 1.2rem;
+    }
+
 }

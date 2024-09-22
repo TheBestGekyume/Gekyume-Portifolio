@@ -1,11 +1,11 @@
 section#header {
-    background:url(../../../Assets/Images/header-bg.jpg) no-repeat;
+    background:url(../../../Assets/Images/bg-teste.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 5rem; */
+    margin-bottom: 5rem;
 }
 
 .svg-group {
