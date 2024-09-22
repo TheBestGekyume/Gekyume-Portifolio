@@ -26,5 +26,14 @@ section#projetos div.divAnimada {
     }
 }
 
+.list{
+    column-count: 2;
+}
 
 
+@media screen and (max-width: 768px) {
+    .list{
+        column-count: 1;
+    }
+
+}
