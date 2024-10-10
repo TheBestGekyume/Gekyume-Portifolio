@@ -5,6 +5,7 @@ export function Projetos({ children }) {
   return (
     <section id="projetos">
       <div className="divAnimada">
+        {/* REFAZER A DIV ANIAMDA COM TRANSPARENTE EM VEZ DE PRETO */}
         <h3>Meus Projetos</h3>
       </div>
       <div className="container-fluid ">

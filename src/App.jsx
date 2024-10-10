@@ -4,12 +4,11 @@ import { Navbar } from "./Components/Navbar/Navbar";
 import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
 import { Projeto } from "./Components/Projeto/Projeto";
 import { Projetos } from "./Components/Projetos/Projetos";
-
 export function App() {
   return (
     <div className="App">
       <Navbar />
-
+      
       <Header>
         <ItemSvg
           title="HTML5"
