@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar-style {
     background-color: black;
     color: white;
@@ -10,7 +14,7 @@ div.container-fluid {
 nav.navbar h1.navbar-brand {
     font-family: "Kode Mono", monospace;
     font-size: 34px;
-    background-image: linear-gradient(to right bottom, #bf00ff, #bf00ff50, #bf00ff);
+    background-image: linear-gradient(to right bottom, #7132b9, #7132b950, #7132b9);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     background-size: 200% 200%;
@@ -61,7 +65,7 @@ div.collapse a:hover {
 
 div.collapse a:focus {
     transition: 600ms;
-    color: #bf00ff;
-    border-bottom-color: #bf00ff98;
+    color: #7132b9;
+    border-bottom-color: #7132b998;
 }
 

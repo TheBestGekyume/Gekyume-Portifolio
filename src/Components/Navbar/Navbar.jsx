@@ -1,4 +1,6 @@
 import "./Navbar.css";
+import { Header } from "../Header/Header";
+import { Projetos } from "../Projetos/Projetos";
 
 export function Navbar() {
   return (
@@ -6,7 +8,7 @@ export function Navbar() {
       <div className="container-fluid">
 
         <h1 className="navbar-brand" href="#">
-          <a href="https://github.com/TheBestGekyume" target="blank">Gekyume Serna</a> 
+          <a href="https://github.com/TheBestGekyume" rel="noopener noreferrer" target="blank">Gekyume Serna</a> 
         </h1>
 
         <button
@@ -25,13 +27,13 @@ export function Navbar() {
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#header">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
+              <a className="nav-link" href="#projetos">
+                Meus Projetos
               </a>
             </li>
           </ul>
@@ -41,5 +43,7 @@ export function Navbar() {
 
       </div>
     </nav>
+
+  
   );
 }

@@ -1,17 +1,18 @@
 section#projetos {
+    background-color: #000;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    
     gap: 2rem;
 }
 
 section#projetos div.divAnimada {
     width: 100%;
     text-align: center;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     padding-block: 1rem;
-    background: linear-gradient(to right, #000 10%, #55268B , #55268b1a , #55268B , #000 90%);
-
+    background: linear-gradient(to right, transparent 10%, #7132b9 , #7132b91a , #7132b9 , transparent 90%);
     background-size: 700%;
     animation: backgroundAnimation 6s linear infinite;
 }

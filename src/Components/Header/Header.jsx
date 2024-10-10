@@ -1,9 +1,11 @@
 import "./Header.css";
 import React from "react";
+import Particulas from "../Particulas/Particulas";
 
 export function Header({ children }) {
   return (
     <section id="header">
+      <Particulas id="particulas"/>
       <div className="div-content">
         <h2>Boa-Vindas ao Meu Portifólio!</h2>
 
@@ -23,6 +25,7 @@ export function Header({ children }) {
 
         <div className="svg-group">{children}</div>
       </div>
+      
     </section>
   );
 }

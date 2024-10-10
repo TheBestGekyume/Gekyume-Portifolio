@@ -15,14 +15,4 @@ body{
   box-sizing: border-box;
 }
 
-.iframe-conteiner{
-  display: flex;
-}
-
-iframe{
-  /* display: inline-block; */
-  margin: 0 auto;
-  width: 90vw;
-  height: 100VH;
-}
 
