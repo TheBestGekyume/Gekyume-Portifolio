@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projetos.css";
+import "./Projetos.scss";
 
 export function Projetos({ children }) {
   return (

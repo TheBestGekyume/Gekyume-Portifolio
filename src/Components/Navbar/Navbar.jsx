@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./Navbar.scss";
 import { Header } from "../Header/Header";
 import { Projetos } from "../Projetos/Projetos";
 

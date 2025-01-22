@@ -1,4 +1,4 @@
-import "./Projeto.css";
+import "./Projeto.scss";
 
 export function Projeto({ imageSrc, title, link, description}) {
   return (
