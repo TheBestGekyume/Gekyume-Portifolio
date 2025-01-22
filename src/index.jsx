@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import { App } from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Remover ou ajustar conforme necessário
 // import reportWebVitals from './reportWebVitals';
 
