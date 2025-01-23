@@ -27,13 +27,16 @@ section#header {
       text-wrap: nowrap;
       text-align: center;
 
-      &::before {
-        content: "{ ";
+      &:first-of-type{
+        &::before {
+          content: "{ ";
+        }
+  
+        &::after {
+          content: " }";
+        }
       }
-
-      &::after {
-        content: " }";
-      }
+      
     }
 
     p {
@@ -45,6 +48,11 @@ section#header {
     &:hover {
       box-shadow: 0px 0px 20px 10px #7132b96a;
       background-color: #000000c4;
+    }
+    
+    hr{
+      border-width: 2px;
+    
     }
   }
 
@@ -74,7 +82,8 @@ section#header {
       max-width: 90vw;
 
       h3 {
-        font-size: 1.5 rem;
+        font-size: 1.4rem;
+        text-wrap: wrap;
       }
 
       p {

@@ -2,13 +2,45 @@ import "./styles/App.css";
 import { Header } from "./Components/Header/Header";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
-import { Projeto } from "./Components/Projeto/Projeto";
 import { Projetos } from "./Components/Projetos/Projetos";
 export function App() {
+
+  
+  const meusProjetos = [
+    {
+      imageSrc: "Assets/Images/form-react.png",
+      title: "Formulário - ReactJs",
+      link: "https://thebestgekyume.github.io/Form-React/",
+      description: `Este é um formulário simples construído em ReactJs.
+          Após o cadastro de um produto, ele é imediatamente exibido em uma tabela logo abaixo.
+          A tabela permite ordenar os produtos de forma crescente ou decrescente com base em seu valor,
+          oferecendo uma maneira prática de visualizar e organizar as informações.`,
+    },
+    {
+      imageSrc: "https://thebestgekyume.github.io/Rainy-Night/img/headerImg.png",
+      link: "https://thebestgekyume.github.io/Rainy-Night/",
+      title: "Rainy Night - Web Horror Game",
+      description: `Rainy Night começou como um trabalho de faculdade,
+          com o objetivo de criar um jogo interativo usando apenas HTML, CSS e JavaScript.
+          Após algumas melhorias e ajustes, o resultado final foi aprimorado.
+          O jogo permite que os jogadores façam escolhas que influenciam o desenrolar da história,
+          proporcionando uma experiência com foco no terror psicológico.
+          Além disso, inclui efeitos sonoros e visuais, aumentando a imersividade. Experimente!`
+    },
+    {
+      imageSrc: "Assets/Images/riot-copy.png",
+      title: "Riot Web Site Copy",
+      link: "https://thebestgekyume.github.io/Riot-Copy/",
+      description: "lorem"
+    }
+  ];
+
+
   return (
     <div className="App">
+
       <Navbar />
-      
+
       <Header>
         <ItemSvg
           title="HTML5"
@@ -96,39 +128,10 @@ export function App() {
         />
       </Header>
 
-      <Projetos>
-        <Projeto
-          imageSrc="Assets\Images\form-react.png"
-          title="Formulário - ReactJs"
-          link="https://thebestgekyume.github.io/Form-React/"
-          description="Este é um formulário simples construído em ReactJs.
-          Após o cadastro de um produto, ele é imediatamente exibido em uma tabela logo abaixo.
-          A tabela permite ordenar os produtos de forma crescente ou decrescente com base em seu valor,
-          oferecendo uma maneira prática de visualizar e organizar as informações."
-        />
 
-        <Projeto
-          imageSrc="https://thebestgekyume.github.io/Rainy-Night/img/headerImg.png"
-          link="https://thebestgekyume.github.io/Rainy-Night/"
-          title="Rainy Night - Web Horror Game"
-          description="Rainy Night começou como um trabalho de faculdade,
-          com o objetivo de criar um jogo interativo usando apenas HTML, CSS e JavaScript.
-          Após algumas melhorias e ajustes, o resultado final foi aprimorado.
-          O jogo permite que os jogadores façam escolhas que influenciam o desenrolar da história,
-          proporcionando uma experiência com foco no terror psicológico.
-          Além disso, inclui efeitos sonoros e visuais, aumentando a imersividade. Experimente!"
-        />
+      <Projetos projetos={meusProjetos} />
 
-        <Projeto
-          imageSrc="Assets\Images\riot-copy.png"
-          title="Riot Web Site Copy"
-          link="https://thebestgekyume.github.io/Riot-Copy/"
-          description="lorem"
-        />
-      </Projetos>
-      {/* <div className="iframe-conteiner">
-      <iframe src="https://thebestgekyume.github.io/Form-React/"/>
-      </div> */}
+      
     </div>
   );
 }
