@@ -1,4 +1,4 @@
-import "./ItemSvg.css";
+import "./ItemSvg.scss";
 
 // https://simpleicons.org
 

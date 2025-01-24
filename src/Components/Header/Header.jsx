@@ -13,7 +13,7 @@ export function Header({ children }) {
           <span>Desenvolvedor Front-End</span>
         </h3>
 
-        <p>
+        <p className="pb-3">
           Olá! Meu nome é<span> Gekyume</span>, sou estudante de
           <span> Análise e Desenvolvimento de Sistemas </span>e utilizo
           principalmente<span> React.js </span> e <span> Angular </span>para 
@@ -23,7 +23,11 @@ export function Header({ children }) {
           ,<span> CSS3</span> e <span>JavaScript</span>.
         </p>
 
+        <hr/>
+
+        <h3><span>Linguagens</span> & <span>Tecnologias</span></h3>
         <div className="text-center mx-auto svg-content">{children}</div>
+
       </div>
       
     </section>

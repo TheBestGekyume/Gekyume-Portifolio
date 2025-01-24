@@ -1,54 +1,76 @@
-img{
-    width: 100% ;
-    background-color: black;
-}
-
-.card{
+div.card {
     margin-bottom: 1rem;
     background-color: #222 !important;
-    border:#222 1.5px solid ;
+    border: #222 1.5px solid;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        background-color: black;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0;
+        transition: 300ms;
+        background: #00000040;
+        border: 1px solid transparent;
+        border-radius: var(--bs-border-radius);
+        padding: 1rem;
+
+        &:hover {
+            opacity: 1;
+            background: transparent;
+            border-color: #7132b9;
+            box-shadow: 0px 0px 20px 8px #7a7a7abf;
+        }
+
+        .overlay-content {
+            border-radius: var(--bs-border-radius);
+            background-color: #1b0a2fd8;
+            transition: 300ms;
+        }
+    }
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    opacity: 0;
-    transition: 350ms;
-    border-radius: var(--bs-border-radius);
+.selected{
+
+    .btn-custom {
+        background-color: #7132b9b0;
+        color: #fff;
+        font-size: 1.2rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: 10px;
+        transition: 300ms;
+        &:hover {
+            background-color: #7132b9;
+        }
+    
+        @media screen and (max-width: 768px) {
+            height: 2.5rem;
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
 }
 
-.overlay:hover {
-    opacity: 1;
-    background: #00000090;
-    backdrop-filter: blur(3px);
-    box-shadow: 0px 0px 20px 8px #7a7a7abf;
-}
-
-a{
-    color: transparent;
-}
 
 
-p.card-text {
-    text-align: justify;
-}
 
 @media screen and (max-width: 768px) {
-
-    .overlay{
-        padding: 0.4rem;
+    .overlay-content {
+        margin-top: 2rem;
     }
 
-    p.card-text {
-        font-size: 10px;
-    }
-    
-    h5.card-title{
+    h5.card-title {
         font-size: 1.2rem;
     }
-
 }

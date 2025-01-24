@@ -2,24 +2,32 @@ section#projetos {
     background-color: #000;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 2rem;
-}
 
-section#projetos div.divAnimada {
-    width: 100%;
-    text-align: center;
-    padding-block: 1rem;
-    background: linear-gradient(
-        to right,
-        transparent 10%,
-        #7132b9,
-        #7132b91a,
-        #7132b9,
-        transparent 90%
-    );
-    background-size: 700%;
-    animation: backgroundAnimation 6s linear infinite;
+    div.divAnimada {
+        width: 100%;
+        text-align: center;
+        padding-block: 1rem;
+        background: linear-gradient(
+            to right,
+            transparent 10%,
+            #7132b9,
+            #7132b91a,
+            #7132b9,
+            transparent 90%
+        );
+        background-size: 700%;
+        animation: backgroundAnimation 6s linear infinite;
+    }
+
+
+    .list {
+        column-count: 2;
+
+        @media screen and (max-width: 768px) {
+            column-count: 1;
+        }
+    }
 }
 
 @keyframes backgroundAnimation {
@@ -29,15 +37,5 @@ section#projetos div.divAnimada {
 
     100% {
         background-position-x: 100%;
-    }
-}
-
-.list {
-    column-count: 2;
-}
-
-@media screen and (max-width: 768px) {
-    .list {
-        column-count: 1;
     }
 }

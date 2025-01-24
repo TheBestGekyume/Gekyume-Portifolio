@@ -1,0 +1,19 @@
+
+.item-svg {
+    max-width: 64px;
+    margin: 10px;
+    fill: currentColor;
+    transition: ease-out 250ms;
+    opacity: 0.7;
+
+    &:hover {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+
+    @media (max-width: 768px) {
+        max-width: 54px;
+    }
+}
+
+/* https://simpleicons.org */
