@@ -5,33 +5,36 @@ import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
 import { Projetos } from "./Components/Projetos/Projetos";
 export function App() {
 
-  
+
   const meusProjetos = [
     {
       imageSrc: "Assets/Images/form-react.png",
       title: "Formulário - ReactJs",
-      link: "https://thebestgekyume.github.io/Form-React/",
       description: `Este é um formulário simples construído em ReactJs.
           Após o cadastro de um produto, ele é imediatamente exibido em uma tabela logo abaixo.
           A tabela permite ordenar os produtos de forma crescente ou decrescente com base em seu valor,
           oferecendo uma maneira prática de visualizar e organizar as informações.`,
+      linkRepo: "https://github.com/TheBestGekyume/Form-React",
+      linkSite: "https://thebestgekyume.github.io/Form-React/"
     },
     {
       imageSrc: "https://thebestgekyume.github.io/Rainy-Night/img/headerImg.png",
-      link: "https://thebestgekyume.github.io/Rainy-Night/",
       title: "Rainy Night - Web Horror Game",
       description: `Rainy Night começou como um trabalho de faculdade,
           com o objetivo de criar um jogo interativo usando apenas HTML, CSS e JavaScript.
           Após algumas melhorias e ajustes, o resultado final foi aprimorado.
           O jogo permite que os jogadores façam escolhas que influenciam o desenrolar da história,
           proporcionando uma experiência com foco no terror psicológico.
-          Além disso, inclui efeitos sonoros e visuais, aumentando a imersividade. Experimente!`
+          Além disso, inclui efeitos sonoros e visuais, aumentando a imersividade. Experimente!`,
+      linkRepo: "https://github.com/TheBestGekyume/Rainy-Night",
+      linkSite: "https://thebestgekyume.github.io/Rainy-Night/"
     },
     {
       imageSrc: "Assets/Images/riot-copy.png",
       title: "Riot Web Site Copy",
-      link: "https://thebestgekyume.github.io/Riot-Copy/",
-      description: "lorem"
+      description: "lorem",
+      linkRepo: "https://github.com/TheBestGekyume/Riot-Copy",
+      linkSite: "https://thebestgekyume.github.io/Riot-Copy"
     }
   ];
 
@@ -131,7 +134,7 @@ export function App() {
 
       <Projetos projetos={meusProjetos} />
 
-      
+
     </div>
   );
 }

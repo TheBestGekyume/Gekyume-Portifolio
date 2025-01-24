@@ -20,18 +20,15 @@ section#projetos {
         animation: backgroundAnimation 6s linear infinite;
     }
 
+
     .list {
         column-count: 2;
-    
+
         @media screen and (max-width: 768px) {
             column-count: 1;
         }
     }
-
-
 }
-
-
 
 @keyframes backgroundAnimation {
     0% {
@@ -42,5 +39,3 @@ section#projetos {
         background-position-x: 100%;
     }
 }
-
-

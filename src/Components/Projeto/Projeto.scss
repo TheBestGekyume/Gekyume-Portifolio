@@ -15,50 +15,59 @@ div.card {
         right: 0;
         bottom: 0;
         left: 0;
+        opacity: 0;
         transition: 300ms;
         background: #00000040;
         border: 1px solid transparent;
         border-radius: var(--bs-border-radius);
         padding: 1rem;
 
-        &:hover{
+        &:hover {
+            opacity: 1;
             background: transparent;
             border-color: #7132b9;
             box-shadow: 0px 0px 20px 8px #7a7a7abf;
         }
 
-        .overlay-content{
+        .overlay-content {
             border-radius: var(--bs-border-radius);
-            backdrop-filter: blur(5px);  
-            background-color: #000000b6;
-
-            .btn-custom{
-                background-color: #7132b9b0;
-                color: #fff;
-                &:hover{
-                    background-color: #7132b9;
-                }
-            }
+            background-color: #1b0a2fd8;
+            transition: 300ms;
         }
     }
 }
 
+.selected{
 
-a {
-    color: transparent;
-}
-
-p.card-text {
-    text-align: justify;
-}
-
-@media screen and (max-width: 768px) {
-    .overlay {
-        padding: 0.4rem;
+    .btn-custom {
+        background-color: #7132b9b0;
+        color: #fff;
+        font-size: 1.2rem;
+        height: 3.5rem;
+        border: none;
+        border-radius: 10px;
+        transition: 300ms;
+        &:hover {
+            background-color: #7132b9;
+        }
+    
+        @media screen and (max-width: 768px) {
+            height: 2.5rem;
+            font-size: 1rem;
+        }
     }
 
-    p.card-text {
-        font-size: 10px;
+    @media screen and (min-width: 768px) {
+        width: 50%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .overlay-content {
+        margin-top: 2rem;
     }
 
     h5.card-title {

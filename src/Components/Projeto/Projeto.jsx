@@ -1,41 +1,64 @@
 import "./Projeto.scss";
 
-export function Projeto({ imageSrc, title, description, isSelected, onToggle, linkRepo, linkSite }) {
+export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSelected, onToggle }) {
   return (
-    <div
-      className="card pt-2 pt-md-0 text-bg-dark text-decoration-none"
-      onClick={onToggle}
-    >
-      <h5 className="card-title d-block d-md-none text-center fw-bold">
-        {title}
-      </h5>
-      <img src={imageSrc} className="card-img" alt={title} />
-      <div className="overlay d-flex align-items-baseline">
-        {isSelected && (
-          <div className="overlay-content py-4 px-4 w-100 border">
-            <h5 className="d-none d-md-block card-title text-center fw-bold mb-3">
-              {title}
-            </h5>
-            <p className="card-text text-break p-0">{description}</p>
+    <>
+      {!isSelected && (
+        <div
+          className="card pt-2 pt-md-0 text-bg-dark text-decoration-none"
+          onClick={onToggle}
+        >
+          <h5 className="card-title d-block d-md-none text-center fw-bold">
+            {title}
+          </h5>
+          <img src={imageSrc} className="card-img" alt={title} />
 
-            <div className="d-grid gap-2 col-6 mx-auto mt-4">
-              <button className="btn btn-lg btn-custom" type="button">
-                <a href={linkRepo} target="_blank" rel="noopener noreferrer">
-                  Repositório
-                </a>
-              </button>
+          <div className="d-flex align-items-baseline overlay" >
 
-              <button className="btn btn-lg btn-custom" type="button">
-                <a href={linkSite} target="_blank" rel="noopener noreferrer">
-                  Site
-                </a>
-              </button>
+            <div className="overlay-content d-none d-md-inline p-3 mx-auto">
+              <h5 className="card-title text-center m-0 fw-bold">
+                {title}
+              </h5>
             </div>
-
           </div>
-        )}
-      </div>
-    </div>
+
+        </div>
+      )
+      }
+
+
+      {isSelected && (
+        <div className="selected mt-2 py-4 px-4 border border-white rounded-4 mx-auto">
+          <h5 className="text-white text-center fw-bold mb-3 fs-3">
+            {title}
+          </h5>
+          <p className="text-white text-center p-0">{description}</p>
+
+          <div className="d-grid gap-2 col-11 col-lg-4 gap-3 mx-auto mt-5">
+            <button
+              className="btn-custom"
+              type="button"
+              onClick={() => window.open(linkRepo, "_blank", "noopener noreferrer")}
+            >
+              Repositório
+            </button>
+
+            <button
+              className="btn-custom"
+              type="button"
+              onClick={() => window.open(linkSite, "_blank", "noopener noreferrer")}
+            >
+              Site
+            </button>
+          </div>
+
+
+        </div>
+      )}
+    </>
+
+
+
   );
 }
 
