@@ -55,12 +55,14 @@ div.collapse a {
     font-size: 18px;
     color: #666;
     transition: transparent 600ms;
+    border-bottom: 1px solid transparent;
+
 }
 
 div.collapse a:hover {
     transition: 600ms;
     color: #fff;
-    border-bottom: 1px solid #fff;
+    border-color: #fff;
 }
 
 div.collapse a:focus {
