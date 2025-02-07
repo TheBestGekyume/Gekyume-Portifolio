@@ -24,10 +24,10 @@ export function Projetos({ projetos }) {
     <section id="projetos">
 
       <div className="divAnimada">
-        <h3 className="text-white">Meus Projetos</h3>
+        <h3 className="text-white fs-2 fw-bolder">Meus Projetos</h3>
       </div>
 
-      <div className="container-fluid">
+      <div className="container">
         {isSingleView && (
           <button className="btn mb-3" onClick={handleReset}>
             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" className="bi bi-arrow-left-circle-fill arrow-back" viewBox="0 0 16 16">

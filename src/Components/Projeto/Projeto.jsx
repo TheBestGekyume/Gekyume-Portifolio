@@ -29,10 +29,10 @@ export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSe
 
       {isSelected && (
         <div className="selected mt-2 py-4 px-4 border border-white rounded-4 mx-auto">
-          <h5 className="text-white text-center fw-bold mb-3 fs-3">
+          <h5 className="text-center fw-bold mb-3 fs-3">
             {title}
           </h5>
-          <p className="text-white text-center p-0">{description}</p>
+          <p className="text-white text-center p-0 fs-6 ">{description}</p>
 
           <div className="d-grid gap-2 col-11 col-lg-4 gap-3 mx-auto mt-5">
             <button
