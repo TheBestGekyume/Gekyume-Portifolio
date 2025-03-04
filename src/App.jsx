@@ -3,13 +3,20 @@ import { Header } from "./Components/Header/Header";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
 import { Projetos } from "./Components/Projetos/Projetos";
+import { Formacao } from "./Components/Formacao/Formacao";
+import ImgFormReact from "../Assets/Images/form-react.png";
+import ImgRainyNight from "../Assets/Images/Rainy-Night.png";
+import ImgRiotCopy from "../Assets/Images/riot-copy.png";
+import ImgMorgannaWebsite from "../Assets/Images/morganna-website.png"
+import ImgViacaoCalango from "../Assets/Images/viacaocalango.png";
+
 export function App() {
 
 
-  const meusProjetos = [
+  const arrayProjetos = [
     {
-      imageSrc: "Assets/Images/form-react.png",
-      title: "Formulário - ReactJs",
+      imageSrc: ImgFormReact,
+      title: "Formulário em ReactJs",
       description: `Este é um formulário simples construído em ReactJs.
           Após o cadastro de um produto, ele é imediatamente exibido em uma tabela logo abaixo.
           A tabela permite ordenar os produtos de forma crescente ou decrescente com base em seu valor,
@@ -18,7 +25,7 @@ export function App() {
       linkSite: "https://thebestgekyume.github.io/Form-React/"
     },
     {
-      imageSrc: "https://thebestgekyume.github.io/Rainy-Night/img/headerImg.png",
+      imageSrc: ImgRainyNight,
       title: "Rainy Night - Web Horror Game",
       description: `Rainy Night começou como um trabalho de faculdade,
           com o objetivo de criar um jogo interativo usando apenas HTML, CSS e JavaScript.
@@ -30,12 +37,49 @@ export function App() {
       linkSite: "https://thebestgekyume.github.io/Rainy-Night/"
     },
     {
-      imageSrc: "Assets/Images/riot-copy.png",
+      imageSrc: ImgRiotCopy,
       title: "Riot Web Site Copy",
-      description: "lorem",
+      description: `Este foi o primeiro projeto que concluí no Santander Coders 2024.
+      Trata-se de um site não funcional, desenvolvido com HTML e SCSS, com o objetivo
+      de replicar um design existente e praticar os fundamentos básicos do desenvolvimento web.
+      Além de aprimorar minhas habilidades técnicas, esse projeto também me proporcionou
+      uma melhor compreensão sobre o trabalho em equipe e a importância da comunicação
+      entre os membros do grupo.`,
       linkRepo: "https://github.com/TheBestGekyume/Riot-Copy",
       linkSite: "https://thebestgekyume.github.io/Riot-Copy"
-    }
+    },
+    {
+      imageSrc: ImgViacaoCalango,
+      title: "Viação Calango",
+      description: `A Viação Calango foi um projeto acadêmico desenvolvido em dupla para a disciplina de 
+      Desenvolvimento Web, com foco na construção do back-end de um sistema de viagens. O projeto foi 
+      estruturado utilizando PHP para a API, MySQL e SQL para o gerenciamento do banco de dados,
+      enquanto o React foi empregado no front-end para proporcionar uma interface dinâmica e intuitiva.
+      Além disso, o Axios foi utilizado para facilitar a comunicação entre o front-end e o back-end,
+      garantindo requisições rápidas e eficientes.  
+      Uma das partes mais importantes do projeto foi a definição de uma regra de negócios bem estruturada,
+      criada por nós mesmos. Com base nessa lógica, desenvolvemos todo o sistema de forma organizada,
+      garantindo que cada funcionalidade estivesse alinhada com os objetivos propostos. Essa abordagem
+      permitiu uma experiência prática valiosa, desde a concepção das regras até a implementação completa
+      do site.`,
+      linkRepo: "https://github.com/TheBestGekyume/ViacaoCalango",
+      linkSite: null
+    },
+    {
+      imageSrc: ImgMorgannaWebsite,
+      title: "Morganna Lessa - Website",
+      description: `Este projeto não foi apenas um exercício para meu portfólio,
+      mas sim uma experiência real de desenvolvimento para minha primeira cliente,
+      Morganna Lessa. O site, estruturado como um portfólio de advocacia,
+      foi desenvolvido do zero, desde o design até o deploy, com base em conversas diretas,
+      apresentação de ideias e testes para garantir que atendesse às suas necessidades.
+      Mais do que aprender novas tecnologias ou otimizar um site real,
+      este projeto me proporcionou uma vivência essencial: o contato direto com um cliente
+       e a responsabilidade de cumprir prazos.`,
+      linkRepo: "https://github.com/TheBestGekyume/WebSiteMorganna",
+      linkSite: "https://morgannalessa.netlify.app/"
+    },
+
   ];
 
 
@@ -141,9 +185,9 @@ export function App() {
       </Header>
 
 
-      <Projetos projetos={meusProjetos} />
+      <Projetos projetos={arrayProjetos} />
 
-
+      <Formacao></Formacao>
     </div>
   );
 }

@@ -21,7 +21,7 @@ export function Projetos({ projetos }) {
   };
 
   return (
-    <section id="projetos">
+    <section id="projetos" className="mb-5">
 
       <div className="divAnimada">
         <h3 className="text-white fs-2 fw-bolder">Meus Projetos</h3>
@@ -44,6 +44,7 @@ export function Projetos({ projetos }) {
             }
 
             return (
+              <>
               <Projeto
                 key={index}
                 imageSrc={projeto.imageSrc}
@@ -54,8 +55,11 @@ export function Projetos({ projetos }) {
                 isSelected={isSelected} 
                 onToggle={() => handleToggle(index)}
               />
+
+              </>
             );
           })}
+              {/* era pra colocar um comming soon aqui mas tá dificil de fazer */}  
         </div>
       </div>
     </section>
