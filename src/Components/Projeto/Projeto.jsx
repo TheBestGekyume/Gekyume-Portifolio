@@ -32,6 +32,7 @@ export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSe
           <h5 className="text-center fw-bold mb-3 fs-3">
             {title}
           </h5>
+
           <p className="text-white text-center p-0 fs-6 ">{description}</p>
 
           <div className="d-grid gap-2 col-11 col-lg-4 gap-3 mx-auto mt-5">
@@ -43,13 +44,25 @@ export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSe
               Repositório
             </button>
 
-            <button
-              className="btn-custom"
-              type="button"
-              onClick={() => window.open(linkSite, "_blank", "noopener noreferrer")}
-            >
-              Site
-            </button>
+            {
+              linkSite ?
+                <button
+                  className="btn-custom"
+                  type="button"
+                  onClick={() => window.open(linkSite, "_blank", "noopener noreferrer")}
+                >
+                  Site
+                </button>
+                :
+                <button
+                  className="btn-custom"
+                  type="button"
+                  disabled
+                >
+                  Site Indisponível
+                </button>
+            }
+
           </div>
 
 

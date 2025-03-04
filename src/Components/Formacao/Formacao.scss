@@ -1,0 +1,60 @@
+section#formacao{
+    background-color: black;
+    margin-top: 8rem;
+
+    div.carousel-indicators{
+        button{
+            width: 1.25rem;
+            height:1.25rem;
+            margin-inline: 1rem;
+        }
+    }
+
+    .carroItem{
+        display: flex;
+        justify-content: center;
+        object-fit: fill;
+        text-align: center;
+
+        h2{
+            color: #7132b9;
+            @media screen and (max-width: 1400px){
+                font-size: 1.5rem;
+            }
+
+            @media screen and (max-width: 576px){
+                font-size: 1.25rem;
+            }
+        }
+
+        img{
+            object-fit: fill;
+            width: 750px;
+            height: 450px;
+            opacity: 0.75;
+            scale: 0.95;
+            transition: 300ms;
+            
+            &:hover{
+                opacity: 0.95;
+                scale: 1.0;
+                box-shadow: 0px 0px 25px 2px #fff;
+            }
+
+            @media screen and (max-width: 1400px){
+                width: 550px;
+                height: 250px;
+            }
+
+            @media screen and (max-width: 576px){
+                width: 400px;
+                height: 200px;
+            }
+
+            @media screen and (max-width: 400px){
+                width: 300px;
+                height: 175px;
+            }
+        }
+    }
+}
