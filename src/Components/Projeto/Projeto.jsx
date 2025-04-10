@@ -1,6 +1,7 @@
+import React, { forwardRef } from "react";
 import "./Projeto.scss";
 
-export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSelected, onToggle }) {
+export const Projeto = forwardRef(({ imageSrc, title, description, linkRepo, linkSite, isSelected, onToggle }, ref) => {
   return (
     <>
       {!isSelected && (
@@ -13,22 +14,21 @@ export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSe
           </h5>
           <img src={imageSrc} className="card-img" alt={title} />
 
-          <div className="d-flex align-items-baseline overlay" >
-
+          <div className="d-flex align-items-baseline overlay">
             <div className="overlay-content d-none d-md-inline p-3 mx-auto">
               <h5 className="card-title text-center m-0 fw-bold">
                 {title}
               </h5>
             </div>
           </div>
-
         </div>
-      )
-      }
-
+      )}
 
       {isSelected && (
-        <div className="selected mt-2 py-4 px-4 border border-white rounded-4 mx-auto">
+        <div
+          className="selected mt-2 py-4 mb-5 px-4 border border-white rounded-4 mx-auto"
+          ref={ref}
+        >
           <h5 className="text-center fw-bold mb-3 fs-3">
             {title}
           </h5>
@@ -44,36 +44,22 @@ export function Projeto({ imageSrc, title, description, linkRepo, linkSite, isSe
               Repositório
             </button>
 
-            {
-              linkSite ?
-                <button
-                  className="btn-custom"
-                  type="button"
-                  onClick={() => window.open(linkSite, "_blank", "noopener noreferrer")}
-                >
-                  Site
-                </button>
-                :
-                <button
-                  className="btn-custom"
-                  type="button"
-                  disabled
-                >
-                  Site Indisponível
-                </button>
-            }
-
+            {linkSite ? (
+              <button
+                className="btn-custom"
+                type="button"
+                onClick={() => window.open(linkSite, "_blank", "noopener noreferrer")}
+              >
+                Site
+              </button>
+            ) : (
+              <button className="btn-custom" type="button" disabled>
+                Site Indisponível
+              </button>
+            )}
           </div>
-
-
         </div>
       )}
     </>
-
-
-
   );
-}
-
-
-
+});

@@ -4,6 +4,7 @@ import { Navbar } from "./Components/Navbar/Navbar";
 import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
 import { Projetos } from "./Components/Projetos/Projetos";
 import { Formacao } from "./Components/Formacao/Formacao";
+import { Sobre } from "./Components/Sobre/Sobre";
 import ImgFormReact from "../Assets/Images/form-react.png";
 import ImgRainyNight from "../Assets/Images/Rainy-Night.png";
 import ImgRiotCopy from "../Assets/Images/riot-copy.png";
@@ -188,6 +189,8 @@ export function App() {
       <Projetos projetos={arrayProjetos} />
 
       <Formacao></Formacao>
+
+      <Sobre></Sobre>
     </div>
   );
 }

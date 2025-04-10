@@ -1,12 +1,14 @@
+import { Link } from "react-scroll";
 import "./Navbar.scss";
 
 export function Navbar() {
+
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-style">
-      <div className="container-fluid">
+      <div className="container-fluid py-1">
 
-        <h1 className="navbar-brand" href="#">
-          <a href="https://github.com/TheBestGekyume" rel="noopener noreferrer" target="_blank">Gekyume Serna</a> 
+        <h1 className="navbar-brand">
+          <a href="https://github.com/TheBestGekyume" rel="noopener noreferrer" target="_blank">Gekyume Serna</a>
         </h1>
 
         <button
@@ -22,29 +24,47 @@ export function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
-
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3 mt-3 mt-lg-0">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#header">
-                Início
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projetos">
-                Meus Projetos
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#sobreMim">
-                Sobre mim
-              </a>
-            </li>
-          </ul>
-          
-        </div>
 
+            <li className="nav-item">
+              <Link
+                className="link-react"
+                to="header"
+                smooth={true}
+                duration={750}
+                offset={-70}
+              >
+                Início
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="link-react"
+                to="projetos"
+                smooth={true}
+                duration={750}
+                offset={-70}
+              >
+                Meus Projetos
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                className="link-react"
+                to="sobreMim"
+                smooth={true}
+                duration={750}
+                offset={-70}
+              >
+                Sobre Mim
+              </Link>
+            </li>
+
+          </ul>
+        </div>
       </div>
-    </nav>
-  
+    </nav >
   );
 }

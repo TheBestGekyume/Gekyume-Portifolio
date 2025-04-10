@@ -1,37 +1,54 @@
-html{
-    scroll-behavior: smooth;
-}
-
-.navbar-style {
+nav.navbar-style {
     background-color: black;
     color: white;
-}
 
-div.container-fluid {
-    padding-block: 5px;
-}
+    h1.navbar-brand {
+        font-family: "Kode Mono", monospace;
+        font-size: 34px;
+        background-image: linear-gradient(
+            to right bottom,
+            #7132b9,
+            #7132b950,
+            #7132b9
+        );
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-size: 200% 200%;
+        padding: 0;
+        margin-inline: 40px;
+        margin-bottom: 0;
+        transition: ease;
+        cursor: default;
 
-nav.navbar h1.navbar-brand {
-    font-family: "Kode Mono", monospace;
-    font-size: 34px;
-    background-image: linear-gradient(to right bottom, #7132b9, #7132b950, #7132b9);
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 200% 200%;
-    padding: 0;
-    margin-inline: 40px;
-    margin-bottom: 0;
-    transition: ease;
-    cursor: default;
-}
+        &:hover{
+            animation: gradienteAnimacao 1.5s ease;
+        }
 
-nav.navbar h1.navbar-brand a {
-    text-decoration: none;
-    border: 0;
-}
+        a { text-decoration: none; }
+    }
 
-nav.navbar h1.navbar-brand:hover {
-    animation: gradienteAnimacao 1.5s ease;
+    div.collapse .link-react {
+        padding-block: 0px;
+        margin-inline: 40px;
+        font-size: 18px;
+        color: #666;
+        transition: transparent 600ms;
+        border-bottom: 1px solid transparent;
+        cursor: pointer;
+        text-decoration: none;
+    
+        &:hover {
+            transition: 600ms;
+            color: #fff;
+            border-color: #fff;
+        }
+    
+        &:focus {
+            transition: 600ms;
+            color: #7132b9;
+            border-bottom-color: #7132b998;
+        }
+    }
 }
 
 
@@ -49,25 +66,4 @@ nav.navbar h1.navbar-brand:hover {
     }
 }
 
-div.collapse a {
-    padding-block: 0px;
-    margin-inline: 40px;
-    font-size: 18px;
-    color: #666;
-    transition: transparent 600ms;
-    border-bottom: 1px solid transparent;
-
-}
-
-div.collapse a:hover {
-    transition: 600ms;
-    color: #fff;
-    border-color: #fff;
-}
-
-div.collapse a:focus {
-    transition: 600ms;
-    color: #7132b9;
-    border-bottom-color: #7132b998;
-}
 
