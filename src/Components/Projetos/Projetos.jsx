@@ -1,10 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
+
 import "./Projetos.scss";
 import { Projeto } from "../Projeto/Projeto";
 
 export function Projetos({ projetos }) {
+  const selectedRef = useRef(null);
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
   const [isSingleView, setIsSingleView] = useState(false);
+
+  useEffect(() => {
+    if (isSingleView && selectedRef.current) {
+      const yOffset = -150;
+      const y = selectedRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+
+    }
+  }, [isSingleView]);
+
 
   const handleToggle = (index) => {
     if (isSingleView && selectedProjectIndex === index) {
@@ -21,7 +33,7 @@ export function Projetos({ projetos }) {
   };
 
   return (
-    <section id="projetos" className="mb-5">
+    <section id="projetos" className="mb-1">
 
       <div className="divAnimada">
         <h3 className="text-white fs-2 fw-bolder">Meus Projetos</h3>
@@ -45,21 +57,22 @@ export function Projetos({ projetos }) {
 
             return (
               <>
-              <Projeto
-                key={index}
-                imageSrc={projeto.imageSrc}
-                title={projeto.title}
-                linkRepo={projeto.linkRepo}
-                linkSite={projeto.linkSite}
-                description={projeto.description}
-                isSelected={isSelected} 
-                onToggle={() => handleToggle(index)}
-              />
+                <Projeto
+                  key={index}
+                  ref={isSelected ? selectedRef : null}
+                  imageSrc={projeto.imageSrc}
+                  title={projeto.title}
+                  linkRepo={projeto.linkRepo}
+                  linkSite={projeto.linkSite}
+                  description={projeto.description}
+                  isSelected={isSelected}
+                  onToggle={() => handleToggle(index)}
+                />
 
               </>
             );
           })}
-              {/* era pra colocar um comming soon aqui mas tá dificil de fazer */}  
+          {/* era pra colocar um comming soon aqui mas tá dificil de fazer */}
         </div>
       </div>
     </section>
