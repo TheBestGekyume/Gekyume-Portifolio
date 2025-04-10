@@ -36,20 +36,22 @@ nav.navbar-style {
         border-bottom: 1px solid transparent;
         cursor: pointer;
         text-decoration: none;
-    
+        
         &:hover {
             transition: 600ms;
             color: #fff;
             border-color: #fff;
-        }
-    
+        }       
+
         &:focus {
             transition: 600ms;
             color: #7132b9;
-            border-bottom-color: #7132b998;
+            border-bottom-color: none;
         }
     }
 }
+
+
 
 
 @keyframes gradienteAnimacao {

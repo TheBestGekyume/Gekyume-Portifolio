@@ -24,7 +24,7 @@ export function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3 mt-3 mt-lg-0">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-2 mt-3 mt-lg-0">
 
             <li className="nav-item">
               <Link
@@ -33,6 +33,7 @@ export function Navbar() {
                 smooth={true}
                 duration={750}
                 offset={-70}
+                tabIndex={0}
               >
                 Início
               </Link>
@@ -45,8 +46,24 @@ export function Navbar() {
                 smooth={true}
                 duration={750}
                 offset={-70}
+                tabIndex={0}
               >
                 Meus Projetos
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                href="#"
+                className="link-react"
+                to="formacao"
+                smooth={true}
+                duration={750}
+                offset={-70}
+                tabIndex={0}
+
+              >
+                Certificados
               </Link>
             </li>
 
@@ -57,6 +74,7 @@ export function Navbar() {
                 smooth={true}
                 duration={750}
                 offset={-70}
+                tabIndex={0}
               >
                 Sobre Mim
               </Link>
