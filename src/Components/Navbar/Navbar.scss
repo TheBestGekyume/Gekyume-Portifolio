@@ -20,39 +20,43 @@ nav.navbar-style {
         transition: ease;
         cursor: default;
 
-        &:hover{
+        &:hover {
             animation: gradienteAnimacao 1.5s ease;
         }
 
-        a { text-decoration: none; }
+        a {
+            text-decoration: none;
+        }
     }
 
-    div.collapse .link-react {
-        padding-block: 0px;
-        margin-inline: 40px;
-        font-size: 18px;
-        color: #666;
-        transition: transparent 600ms;
-        border-bottom: 1px solid transparent;
-        cursor: pointer;
-        text-decoration: none;
-        
-        &:hover {
-            transition: 600ms;
-            color: #fff;
-            border-color: #fff;
-        }       
+    div.collapse,
+    div.collapsing {
+        transition: 300ms ease-in-out; // controla a duração
 
-        &:focus {
-            transition: 600ms;
-            color: #7132b9;
-            border-bottom-color: none;
+        .link-react {
+            padding-block: 0px;
+            margin-inline: 40px;
+            font-size: 18px;
+            color: #666;
+            transition: transparent 600ms;
+            border-bottom: 1px solid transparent;
+            cursor: pointer;
+            text-decoration: none;
+
+            &:hover {
+                transition: 600ms;
+                color: #fff;
+                border-color: #fff;
+            }
+
+            &:focus {
+                transition: 600ms;
+                color: #7132b9;
+                border-bottom-color: none;
+            }
         }
     }
 }
-
-
-
 
 @keyframes gradienteAnimacao {
     0% {
@@ -67,5 +71,3 @@ nav.navbar-style {
         background-position: 0% 0%;
     }
 }
-
-

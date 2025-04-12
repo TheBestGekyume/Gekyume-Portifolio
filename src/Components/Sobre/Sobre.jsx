@@ -48,14 +48,15 @@ export function Sobre() {
                         <h2 className="mb-4 fw-bold">Sobre Mim</h2>
 
                         <p className="px-2 px-md-0">
-                            Sou estudante de Análise e Desenvolvimento de Sistemas, com interesse especial nas áreas
-                            de Desenvolvimento Web e Cibersegurança. Gosto de explorar como a tecnologia pode impactar
-                            positivamente o dia a dia das pessoas, seja promovendo inclusão digital, otimizando tarefas
-                            rotineiras ou oferecendo formas seguras e acessíveis de lidar com informações.
+                            Sou estudante de Análise e Desenvolvimento de Sistemas, tenho 19 anos de idade e me
+                            interesso especialmente nas áreas de Desenvolvimento Web e Cibersegurança. Gosto de 
+                            explorar como a tecnologia pode impactar positivamente o dia a dia das pessoas, seja 
+                            promovendo inclusão digital, otimizando tarefas rotineiras ou oferecendo formas seguras
+                            e acessíveis de lidar com informações.
                             Tenho afinidade com temas como Pentest, Segurança da Informação, Redes de Computadores e
                             Desenvolvimento Web, tanto no Front-End quanto no Back-End. Busco constantemente aprender
-                            novas ferramentas, entender arquiteturas, padrões e boas práticas, além de experimentar na
-                            prática por meio de projetos, estudos e desafios técnicos.
+                            novas ferramentas, entender arquiteturas, padrões e boas práticas, além de experimentar 
+                            na prática por meio de projetos e estudos.
                             A tecnologia, para mim, vai além do código, é uma forma de pensar e resolver problemas.
                             Encaro os estudos e os projetos como oportunidades de aprofundar conhecimentos, construir
                             soluções úteis e entender melhor o mundo digital em que vivemos.
@@ -63,7 +64,7 @@ export function Sobre() {
                         <p className="px-2 px-md-0">
                             No meu tempo livre, gosto de jogar videogame, principalmente jogos de terror, FPS e
                             aqueles com boas histórias que realmente prendem a atenção. Música também é uma parte
-                            importante do meu dia a dia — meu gosto pode ser um pouco peculiar, mas ultimamente tenho
+                            importante do meu dia a dia, meu gosto pode ser um pouco peculiar, mas ultimamente tenho
                             tentado ser mais eclético e aberto a novos estilos.
                             Além da programação e da segurança, também tenho curiosidade por áreas relacionadas a
                             hardware. Me interesso por peças de computador, gosto de entender como tudo se encaixa e
@@ -73,7 +74,7 @@ export function Sobre() {
                     </div>
 
                 </div>
-                
+
             </div>
         </section>
     )
