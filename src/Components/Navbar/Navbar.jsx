@@ -4,7 +4,7 @@ import "./Navbar.scss";
 export function Navbar() {
 
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-style">
+    <nav className="navbar sticky-top navbar-expand-xl navbar-style">
       <div className="container-fluid py-1">
 
         <h1 className="navbar-brand">
@@ -24,7 +24,7 @@ export function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-2 mt-3 mt-lg-0">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-2 mt-3 mt-lg-0">
 
             <li className="nav-item">
               <Link
