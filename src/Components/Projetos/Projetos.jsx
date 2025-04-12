@@ -33,7 +33,7 @@ export function Projetos({ projetos }) {
   };
 
   return (
-    <section id="projetos" className="mb-1">
+    <section id="projetos" className="pb-5">
 
       <div className="divAnimada">
         <h3 className="text-white fs-2 fw-bolder">Meus Projetos</h3>
