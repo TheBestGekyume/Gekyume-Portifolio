@@ -185,12 +185,11 @@ export function App() {
 
       </Header>
 
-
       <Projetos projetos={arrayProjetos} />
 
-      <Formacao></Formacao>
+      <Formacao/>
 
-      <Sobre></Sobre>
+      <Sobre/>
     </div>
   );
 }
