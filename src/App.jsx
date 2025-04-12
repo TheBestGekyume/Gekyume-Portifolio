@@ -5,11 +5,14 @@ import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
 import { Projetos } from "./Components/Projetos/Projetos";
 import { Formacao } from "./Components/Formacao/Formacao";
 import { Sobre } from "./Components/Sobre/Sobre";
-import ImgFormReact from "../Assets/Images/form-react.png";
-import ImgRainyNight from "../Assets/Images/Rainy-Night.png";
-import ImgRiotCopy from "../Assets/Images/riot-copy.png";
-import ImgMorgannaWebsite from "../Assets/Images/morganna-website.png"
-import ImgViacaoCalango from "../Assets/Images/viacaocalango.png";
+import ImgFormReact from "../Assets/Images/Projetos/form-react.png";
+import ImgRainyNight from "../Assets/Images/Projetos/Rainy-Night.png";
+import ImgRiotCopy from "../Assets/Images/Projetos/riot-copy.png";
+import ImgMorgannaWebsite from "../Assets/Images/Projetos/morganna-website.png"
+import ImgViacaoCalango from "../Assets/Images/Projetos/viacaocalango.png";
+import ImgToDoList from "../Assets/Images/Projetos/ToDoList.png";
+import bibliotecaPoo from "../Assets/Images/Projetos/BibliotecaPoo.png";
+
 
 export function App() {
 
@@ -79,6 +82,24 @@ export function App() {
        e a responsabilidade de cumprir prazos.`,
       linkRepo: "https://github.com/TheBestGekyume/WebSiteMorganna",
       linkSite: "https://morgannalessa.netlify.app/"
+    },
+    {
+      imageSrc: ImgToDoList,
+      title: "TodoList - Angular",
+      description: `Este projeto é uma aplicação de lista de tarefas (ToDo List) desenvolvida com
+      Angular e Bootstrap, e utiliza uma API customizada para operações de CRUD. Esse foi um dos
+      trabalhos em equipe que realizei quando estava no programa Santander Coders.`,
+      linkRepo: "https://github.com/TheBestGekyume/ToDo-List-Angular",
+      linkSite: "https://to-do-list-angular-khaki.vercel.app/"
+    },
+    {
+      imageSrc: bibliotecaPoo,
+      title: "Biblioteca - TypeScript POO",
+      description: `Este projeto consiste em desenvolver uma aplicação web que simula o sistema de
+       gerenciamento de uma biblioteca, utilizando TypeScript para garantir a tipagem estática e 
+       organização do código.`,
+      linkRepo: "https://github.com/TheBestGekyume/Biblioteca---TypeScript-POO",
+      linkSite: null
     },
 
   ];
