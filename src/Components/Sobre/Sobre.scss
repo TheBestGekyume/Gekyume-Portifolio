@@ -1,0 +1,29 @@
+section#sobreMim {
+    background-color: #000;
+
+    h2 {
+        color: #7132b9;
+    }
+
+    p {
+        text-align: justify;
+        width: 50vw;
+    }
+
+    div.image-about {
+        background-color: rgb(36, 36, 54);
+        height: 100px;
+    }
+
+    img {
+        width: 380px;
+        height: 520px;
+        filter: 
+            brightness(0.8)
+            contrast(1.1)
+            grayscale(0.25)
+            saturate(1.25)
+            drop-shadow(0px 0px 500px #7132b9)
+        ;
+    }
+}

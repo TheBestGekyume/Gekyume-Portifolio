@@ -15,7 +15,7 @@ const formacoes = [
 
 export function Formacao() {
   return (
-    <section id="formacao" className="container-flex py-4">
+    <section id="formacao" className="container-flex py-5">
       <h2 className="text-white text-center fw-bolder">Certificados</h2>
 
       <div id="carousel" className="carousel slide container text-white" data-bs-ride="carousel">

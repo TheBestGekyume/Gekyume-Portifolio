@@ -80,6 +80,19 @@ export function Navbar() {
               </Link>
             </li>
 
+            <li className="nav-item">
+              <Link
+                className="link-react"
+                to="#"
+                smooth={true}
+                duration={750}
+                offset={-70}
+                tabIndex={0}
+              >
+                Contato
+              </Link>
+            </li>
+
           </ul>
         </div>
       </div>
