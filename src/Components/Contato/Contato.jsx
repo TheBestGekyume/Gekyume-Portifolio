@@ -1,5 +1,5 @@
 import "./Contato.scss";
-
+import curriculoPDF from "../../../public/Curriculo-Gekyume-Serna.pdf"
 export function Contato() {
     return (
         <footer id="contato" className="text-center py-4 border-top">
@@ -43,8 +43,8 @@ export function Contato() {
                 </a>
 
                 <a
-                    href="public/Curriculo-Gekyume-Serna.pdf"
-                    download
+                    href={curriculoPDF}
+                    download={curriculoPDF}
                     className="contact-link"
                 >
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="icon">
