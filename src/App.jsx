@@ -7,7 +7,7 @@ import { Formacao } from "./Components/Formacao/Formacao";
 import { Sobre } from "./Components/Sobre/Sobre";
 import { Contato } from "./Components/Contato/Contato";
 import ImgFormReact from "../Assets/Images/Projetos/form-react.webp";
-import ImgRainyNight from "../Assets/Images/Projetos/Rainy-Night.webp";
+import ImgRainyNight from "../Assets/Images/Projetos/rainy-night.webp";
 import ImgRiotCopy from "../Assets/Images/Projetos/riot-copy.webp";
 import ImgMorgannaWebsite from "../Assets/Images/Projetos/morganna-website.webp"
 import ImgViacaoCalango from "../Assets/Images/Projetos/viacaocalango.webp";
