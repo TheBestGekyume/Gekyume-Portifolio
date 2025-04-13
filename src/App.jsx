@@ -12,10 +12,10 @@ import ImgMorgannaWebsite from "../Assets/Images/Projetos/morganna-website.png"
 import ImgViacaoCalango from "../Assets/Images/Projetos/viacaocalango.png";
 import ImgToDoList from "../Assets/Images/Projetos/ToDoList.png";
 import bibliotecaPoo from "../Assets/Images/Projetos/BibliotecaPoo.png";
-
+import medConAgular from "../Assets/Images/Projetos/medConAngular.png";
+import hangMan from "../Assets/Images/Projetos/Hangman.png";
 
 export function App() {
-
 
   const arrayProjetos = [
     {
@@ -93,6 +93,17 @@ export function App() {
       linkSite: "https://to-do-list-angular-khaki.vercel.app/"
     },
     {
+      imageSrc: medConAgular,
+      title: "MedCon - Angular",
+      description: `MedCon-Angular é um sistema de gerenciamento de consultas médicas desenvolvido em
+      Angular, com autenticação e controle de acesso para usuários e administradores. Permite criar,
+      editar, visualizar e gerenciar o status de consultas, aplicando práticas como componentização,
+      rotas protegidas e integração com APIs. Esse foi o projeto do último módulo do Santander Coders,
+      também executado em grupo.`,
+      linkRepo: "https://github.com/TheBestGekyume/MedCon-Angular",
+      linkSite: null
+    },
+    {
       imageSrc: bibliotecaPoo,
       title: "Biblioteca - TypeScript POO",
       description: `Este projeto consiste em desenvolver uma aplicação web que simula o sistema de
@@ -101,6 +112,16 @@ export function App() {
       linkRepo: "https://github.com/TheBestGekyume/Biblioteca---TypeScript-POO",
       linkSite: null
     },
+    {
+      imageSrc: hangMan,
+      title: "Hangman",
+      description: `THE HANGMAN é um jogo interativo da forca, desenvolvido em HTML,  CSS e JavaScript, 
+      que permite ao jogador adivinhar palavras de temas como Avatar, Dragon Ball e Naruto. O jogo conta 
+      com teclado virtual, dicas dinâmicas via API externa e salva a pontuação no localStorage.`,
+      linkRepo: "https://github.com/TheBestGekyume/hagman-ada",
+      linkSite: null
+    },
+    
 
   ];
 
@@ -208,9 +229,9 @@ export function App() {
 
       <Projetos projetos={arrayProjetos} />
 
-      <Formacao/>
+      <Formacao />
 
-      <Sobre/>
+      <Sobre />
     </div>
   );
 }
