@@ -12,7 +12,6 @@ export function Header({ children }) {
         <h3>
           <span>Desenvolvedor Front-End</span>
         </h3>
-        {/* EM VEZ DE LISTAR LINGUAGENS FALAR SOBRE AS MINHAS HABILIDADES OU ALGO DO TIPO!!!!!! */}
         <p className="pb-3">
           Olá! Meu nome é <span>Gekyume</span>, sou estudante de
           <span> Análise e Desenvolvimento de Sistemas</span> e atuo como desenvolvedor
