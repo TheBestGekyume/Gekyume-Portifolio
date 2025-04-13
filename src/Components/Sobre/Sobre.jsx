@@ -13,8 +13,8 @@ export function Sobre() {
         const centerX = width / 2;
         const centerY = height / 2;
 
-        const rotateY = ((x - centerX) / centerX) * 20;
-        const rotateX = -((y - centerY) / centerY) * 15;
+        const rotateY = ((x - centerX) / centerX) * 15;
+        const rotateX = -((y - centerY) / centerY) * 10;
 
         setTilt({ rotateX, rotateY });
     }

@@ -1,11 +1,10 @@
 import "./Contato.scss";
-// src/Components/Contato/Contato.jsx
 
 export function Contato() {
     return (
         <footer id="contato" className="text-center py-4 border-top">
             <h3 className="pb-1 fw-semibold">Contate-me!</h3>
-            <div className="container d-flex justify-content-evenly gap-4 py-3">
+            <div className="container d-flex justify-content-evenly flex-wrap gap-4 py-3">
 
                 <a
                     href="mailto:contatogekyume@gmail.com"
@@ -13,13 +12,7 @@ export function Contato() {
                     rel="noopener noreferrer"
                     className="contact-link"
                 >
-
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        fill="currentColor"
-                        className="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="icon">
                         <path d="M2 4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.2l-10 6.25L2 5.2V4zm0 3.8v12.2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V7.8l-10 6.25L2 7.8z" />
                     </svg>
                     Email
@@ -49,7 +42,19 @@ export function Contato() {
                     GitHub
                 </a>
 
+                <a
+                    href="public/Curriculo-Gekyume-Serna.pdf"
+                    download
+                    className="contact-link"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="icon">
+                        <path d="M12 16l4-5h-3V4h-2v7H8l4 5zm8 4H4v-2h16v2z" />
+                    </svg>
+                    Currículo
+                </a>
+
             </div>
+
             <h5 className="pt-2">© {new Date().getFullYear()} Gekyume Serna. Todos os direitos reservados.</h5>
         </footer>
     );
