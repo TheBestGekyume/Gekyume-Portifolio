@@ -25,7 +25,7 @@ export function Sobre() {
 
 
     return (
-        <section id="sobreMim" className="mt-5 text-white pt-5 ">
+        <section id="sobreMim" className="text-white py-4 border-top">
 
             <div className="container">
 

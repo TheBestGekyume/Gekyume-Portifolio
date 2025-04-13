@@ -1,0 +1,25 @@
+footer {
+    background-color: #00000090;
+    color: #fff;
+
+    h3{
+        color: #7132b9;
+    }
+  
+    .contact-link {
+      display: flex;
+      gap: 0.4rem;
+      text-decoration: none;
+      color: #fff;
+      transition: 300ms ease;
+     
+  
+      &:hover {
+        color: #7132b9;
+        transform: scale(1.2);
+
+      }
+      
+    }
+  }
+  
