@@ -85,7 +85,7 @@ export function Navbar() {
             <li className="nav-item">
               <Link
                 className="link-react"
-                to="#"
+                to="contato"
                 smooth={true}
                 duration={750}
                 offset={-70}

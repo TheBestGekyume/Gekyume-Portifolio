@@ -5,6 +5,7 @@ import { ItemSvg } from "./Components/ItemSvg/ItemSvg";
 import { Projetos } from "./Components/Projetos/Projetos";
 import { Formacao } from "./Components/Formacao/Formacao";
 import { Sobre } from "./Components/Sobre/Sobre";
+import { Contato } from "./Components/Contato/Contato";
 import ImgFormReact from "../Assets/Images/Projetos/form-react.png";
 import ImgRainyNight from "../Assets/Images/Projetos/Rainy-Night.png";
 import ImgRiotCopy from "../Assets/Images/Projetos/riot-copy.png";
@@ -232,6 +233,8 @@ export function App() {
       <Formacao />
 
       <Sobre />
+      
+      <Contato/>
     </div>
   );
 }
