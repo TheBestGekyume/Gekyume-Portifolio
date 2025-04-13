@@ -1,6 +1,6 @@
 import "./Sobre.scss";
 import { useState } from "react";
-import FotoDePerfil from "../../../Assets/Images/Foto-De-Perfil-Gekyume.png"
+import FotoDePerfil from "../../../Assets/Images/Foto-De-Perfil-Gekyume.webp"
 
 export function Sobre() {
 

@@ -1,9 +1,9 @@
 import "./Formacao.scss";
-import ImgSenacWebDev from "../../../Assets/Images/Certificados/SenacWebDev.jpg";
-import ImgAdaWebDev from "../../../Assets/Images/Certificados/AdaWebDev.jpg";
-import ImgCCNAv7 from "../../../Assets/Images/Certificados/CCNAv7.jpg";
-import ImgJCACP from "../../../Assets/Images/Certificados/JCACP.jpg";
-import ImgCCST from "../../../Assets/Images/Certificados/CCST.jpg";
+import ImgSenacWebDev from "../../../Assets/Images/Certificados/SenacWebDev.webp";
+import ImgAdaWebDev from "../../../Assets/Images/Certificados/AdaWebDev.webp";
+import ImgCCNAv7 from "../../../Assets/Images/Certificados/CCNAv7.webp";
+import ImgJCACP from "../../../Assets/Images/Certificados/JCACP.webp";
+import ImgCCST from "../../../Assets/Images/Certificados/CCST.webp";
 
 const formacoes = [
   { img: ImgSenacWebDev, title: "Qualificação Profissional em Web Full Stack" },
