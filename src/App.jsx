@@ -6,15 +6,15 @@ import { Projetos } from "./Components/Projetos/Projetos";
 import { Formacao } from "./Components/Formacao/Formacao";
 import { Sobre } from "./Components/Sobre/Sobre";
 import { Contato } from "./Components/Contato/Contato";
-import ImgFormReact from "../Assets/Images/Projetos/form-react.png";
-import ImgRainyNight from "../Assets/Images/Projetos/Rainy-Night.png";
-import ImgRiotCopy from "../Assets/Images/Projetos/riot-copy.png";
-import ImgMorgannaWebsite from "../Assets/Images/Projetos/morganna-website.png"
-import ImgViacaoCalango from "../Assets/Images/Projetos/viacaocalango.png";
-import ImgToDoList from "../Assets/Images/Projetos/ToDoList.png";
-import bibliotecaPoo from "../Assets/Images/Projetos/BibliotecaPoo.png";
-import medConAgular from "../Assets/Images/Projetos/medConAngular.png";
-import hangMan from "../Assets/Images/Projetos/Hangman.png";
+import ImgFormReact from "../Assets/Images/Projetos/form-react.webp";
+import ImgRainyNight from "../Assets/Images/Projetos/Rainy-Night.webp";
+import ImgRiotCopy from "../Assets/Images/Projetos/riot-copy.webp";
+import ImgMorgannaWebsite from "../Assets/Images/Projetos/morganna-website.webp"
+import ImgViacaoCalango from "../Assets/Images/Projetos/viacaocalango.webp";
+import ImgToDoList from "../Assets/Images/Projetos/ToDoList.webp";
+import bibliotecaPoo from "../Assets/Images/Projetos/BibliotecaPoo.webp";
+import medConAgular from "../Assets/Images/Projetos/medConAngular.webp";
+import hangMan from "../Assets/Images/Projetos/Hangman.webp";
 
 export function App() {
 
