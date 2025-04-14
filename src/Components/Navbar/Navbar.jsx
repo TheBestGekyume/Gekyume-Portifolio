@@ -56,6 +56,19 @@ export function Navbar() {
 
             <li className="nav-item">
               <Link
+                className="link-react"
+                to="experiencia"
+                smooth={true}
+                duration={750}
+                offset={-70}
+                tabIndex={0}
+              >
+                Experiência
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
                 href="#"
                 className="link-react"
                 to="formacao"

@@ -42,6 +42,11 @@ nav.navbar-style {
             border-bottom: 1px solid transparent;
             cursor: pointer;
             text-decoration: none;
+            
+            @media (max-width: 1305px) {
+                font-size: 14px;
+            }
+
 
             &:hover {
                 transition: 600ms;
