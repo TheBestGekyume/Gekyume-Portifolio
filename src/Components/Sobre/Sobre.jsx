@@ -45,7 +45,7 @@ export function Sobre() {
                     </div>
 
                     <div className="col-md-6 d-flex flex-column align-items-center mb-4 mb-md-0 order-1 order-md-2 ">
-                        <h2 className="mb-4 fw-bold">Sobre Mim</h2>
+                        <h3 className="mb-4 fw-bold fs-2">Sobre Mim</h3>
 
                         <p className="px-2 px-md-0">
                             Sou estudante de Análise e Desenvolvimento de Sistemas, tenho 19 anos de idade e me

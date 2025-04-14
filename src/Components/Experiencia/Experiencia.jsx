@@ -2,6 +2,9 @@ import "./Experiencia.scss"
 
 export function Experiencia() {
     return(
-        <h1>AAAAAAAAAAA</h1>
+        <section id="experiencia">
+            <h3>AAAAAAAAAAA</h3>
+        </section>
+        
     )
 }
