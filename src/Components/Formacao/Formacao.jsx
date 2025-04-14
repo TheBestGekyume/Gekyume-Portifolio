@@ -16,7 +16,7 @@ const formacoes = [
 export function Formacao() {
   return (
     <section id="formacao" className="container-flex py-5">
-      <h2 className="text-white text-center fw-bolder">Certificados</h2>
+      <h3 className=" text-center fw-bolder ">Certificados</h3>
 
       <div id="carousel" className="carousel slide container text-white" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -38,7 +38,7 @@ export function Formacao() {
               <div className="carroItem">
                 <div className="border rounded-3">
                   <img src={item.img} className="rounded-top-3" alt={item.title} />
-                  <h2 className="my-3">{item.title}</h2>
+                  <h4 className="my-3">{item.title}</h4>
                 </div>
               </div>
             </div>

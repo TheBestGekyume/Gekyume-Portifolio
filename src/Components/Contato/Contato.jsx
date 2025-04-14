@@ -3,7 +3,7 @@ import curriculoPDF from "../../../Assets/Curriculo-Gekyume-Serna.pdf"
 export function Contato() {
     return (
         <footer id="contato" className="text-center py-4 border-top">
-            <h3 className="pb-1 fw-semibold">Contate-me!</h3>
+            <h4 className="pb-1 fw-semibold">Contate-me!</h4>
             <div className="container d-flex justify-content-evenly flex-wrap gap-4 py-3">
 
                 <a

@@ -10,19 +10,20 @@ section#formacao{
         }
     }
 
+    h3{
+        color: #7132b9;
+        font-size: 2rem;        
+    }
+
     .carroItem{
         display: flex;
         justify-content: center;
         object-fit: fill;
         text-align: center;
 
-        h2{
-            color: #7132b9;
-            @media screen and (max-width: 1400px){
-                font-size: 1.5rem;
-            }
-
-            @media screen and (max-width: 576px){
+        h4{
+            font-size: 1.5rem;
+            @media screen and (max-width: 768px){
                 font-size: 1.25rem;
             }
         }

@@ -54,7 +54,7 @@ export function Navbar() {
               </Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 className="link-react"
                 to="experiencia"
@@ -65,7 +65,7 @@ export function Navbar() {
               >
                 Experiência
               </Link>
-            </li>
+            </li> */}
 
             <li className="nav-item">
               <Link
