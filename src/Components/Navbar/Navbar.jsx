@@ -7,7 +7,7 @@ export function Navbar() {
     <nav className="navbar sticky-top navbar-expand-xl navbar-style">
       <div className="container-fluid py-1">
 
-        <h1 className="navbar-brand">
+        <h1 className="navbar-brand fw-bolder">
           <a href="https://github.com/TheBestGekyume" rel="noopener noreferrer" target="_blank">Gekyume Serna</a>
         </h1>
 

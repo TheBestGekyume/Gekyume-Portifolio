@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles/App.scss";
 import { Header } from "./Components/Header/Header";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { ItemSvg } from "./Components/ItemSvg/ItemSvg";

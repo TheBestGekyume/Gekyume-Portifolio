@@ -15,7 +15,7 @@ nav.navbar-style {
         background-clip: text;
         background-size: 200% 200%;
         padding: 0;
-        margin-inline: 40px;
+        margin-inline: 40px auto;
         margin-bottom: 0;
         transition: ease;
         cursor: default;
@@ -42,11 +42,6 @@ nav.navbar-style {
             border-bottom: 1px solid transparent;
             cursor: pointer;
             text-decoration: none;
-            
-            @media (max-width: 1305px) {
-                font-size: 14px;
-            }
-
 
             &:hover {
                 transition: 600ms;
