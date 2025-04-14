@@ -29,7 +29,7 @@ export const Projeto = (({ imageSrc, title, description, linkRepo, linkSite, isS
           </div>
         </div>
       ) : (
-        <div className="selected mt-2 py-4 mb-5 px-4 border border-white rounded-4 mx-auto">
+        <div className="selected mt-2 py-4 mb-5 px-4 border border-3 border-white rounded-4 mx-auto">
           <h5 className="text-center fw-bold mb-3 fs-3">{title}</h5>
           <p className="text-white text-center p-0 fs-6">{description}</p>
 

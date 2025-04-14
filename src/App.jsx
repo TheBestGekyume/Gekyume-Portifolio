@@ -6,6 +6,7 @@ import { Projetos } from "./Components/Projetos/Projetos";
 import { Formacao } from "./Components/Formacao/Formacao";
 import { Sobre } from "./Components/Sobre/Sobre";
 import { Contato } from "./Components/Contato/Contato";
+import { Experiencia } from "./Components/Experiencia/Experiencia";
 import ImgFormReact from "../Assets/Images/Projetos/form-react.webp";
 import ImgRainyNight from "../Assets/Images/Projetos/rainy-night.webp";
 import ImgRiotCopy from "../Assets/Images/Projetos/riot-copy.webp";
@@ -239,6 +240,8 @@ export function App() {
       </Header>
 
       <Projetos projetos={arrayProjetos} />
+
+      {/* <Experiencia></Experiencia> */}
 
       <Formacao />
 
