@@ -37,13 +37,12 @@ div.card {
     }
 }
 
-.selected{
-
-    h5{
+.selected {
+    h5 {
         color: #7132b9;
     }
 
-    p{
+    p {
         font-size: 1rem;
     }
 
@@ -64,7 +63,7 @@ div.card {
             background-color: #7132b940;
             color: #aaa;
         }
-    
+
         @media screen and (max-width: 768px) {
             height: 3rem;
             font-size: 1rem;
@@ -76,7 +75,6 @@ div.card {
         width: 50%;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .overlay-content {

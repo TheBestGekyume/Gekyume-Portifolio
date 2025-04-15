@@ -1,9 +1,10 @@
 import React, { useState, useRef, useLayoutEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import "./Projetos.scss";
 import { Projeto } from "../Projeto/Projeto";
+import "./Projetos.scss";
 
 export function Projetos({ projetos }) {
+
   const divAnimadaRef = useRef(null);
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(null);
   const [isSingleView, setIsSingleView] = useState(false);
@@ -37,7 +38,7 @@ export function Projetos({ projetos }) {
         {isSingleView && (
           <div className="single-view-wrapper">
             <button
-              className="btn mb-3 back-button"
+              className="btn back-button"
               onClick={handleReturnToList}
               aria-label="Voltar para lista de projetos"
             >
@@ -62,9 +63,13 @@ export function Projetos({ projetos }) {
                   linkRepo={projetos[selectedProjectIndex].linkRepo}
                   linkSite={projetos[selectedProjectIndex].linkSite}
                   description={projetos[selectedProjectIndex].description}
+                  icons={projetos[selectedProjectIndex].icons}
                   isSelected={true}
                   onToggle={() => handleReturnToList()}
                 />
+
+
+
               </AnimatePresence>
             </div>
           </div>
