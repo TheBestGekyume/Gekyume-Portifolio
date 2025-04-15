@@ -4,7 +4,11 @@ footer {
 
     h4{
         color: #7132b9;
-        font-size: 1.75rem;
+        font-size: 2rem;
+    }
+
+    h5{
+      font-family: "Kode Mono", monospace;
     }
 
     .btn-custom {
@@ -30,19 +34,20 @@ footer {
   }
   
     .contact-link {
+      font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bolder;
       display: flex;
       gap: 0.4rem;
       text-decoration: none;
       color: #fff;
       transition: 300ms ease;
+      font-size: 1.5rem;
      
-  
       &:hover {
         color: #7132b9;
-        transform: scale(1.2);
-
+        transform: scale(1.25);
+        
       }
-      
     }
   }
   
