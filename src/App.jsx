@@ -122,7 +122,8 @@ export function App() {
           A tabela permite ordenar os produtos de forma crescente ou decrescente com base em seu valor,
           oferecendo uma maneira prática de visualizar e organizar as informações.`,
       linkRepo: "https://github.com/TheBestGekyume/Form-React",
-      linkSite: "https://thebestgekyume.github.io/Form-React/"
+      linkSite: "https://thebestgekyume.github.io/Form-React/",
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: ImgRainyNight,
@@ -134,7 +135,8 @@ export function App() {
           proporcionando uma experiência com foco no terror psicológico.
           Além disso, inclui efeitos sonoros e visuais, aumentando a imersividade. Experimente!`,
       linkRepo: "https://github.com/TheBestGekyume/Rainy-Night",
-      linkSite: "https://thebestgekyume.github.io/Rainy-Night/"
+      linkSite: "https://thebestgekyume.github.io/Rainy-Night/",
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: ImgRiotCopy,
@@ -146,7 +148,8 @@ export function App() {
       uma melhor compreensão sobre o trabalho em equipe e a importância da comunicação
       entre os membros do grupo.`,
       linkRepo: "https://github.com/TheBestGekyume/Riot-Copy",
-      linkSite: "https://thebestgekyume.github.io/Riot-Copy"
+      linkSite: "https://thebestgekyume.github.io/Riot-Copy",
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: ImgViacaoCalango,
@@ -163,7 +166,8 @@ export function App() {
       permitiu uma experiência prática valiosa, desde a concepção das regras até a implementação completa
       do site.`,
       linkRepo: "https://github.com/TheBestGekyume/ViacaoCalango",
-      linkSite: null
+      linkSite: null,
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: ImgMorgannaWebsite,
@@ -177,7 +181,8 @@ export function App() {
       este projeto me proporcionou uma vivência essencial: o contato direto com um cliente
        e a responsabilidade de cumprir prazos.`,
       linkRepo: "https://github.com/TheBestGekyume/WebSiteMorganna",
-      linkSite: "https://morgannalessa.netlify.app/"
+      linkSite: "https://morgannalessa.netlify.app/",
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: ImgToDoList,
@@ -186,7 +191,8 @@ export function App() {
       Angular e Bootstrap, e utiliza uma API customizada para operações de CRUD. Esse foi um dos
       trabalhos em equipe que realizei quando estava no programa Santander Coders.`,
       linkRepo: "https://github.com/TheBestGekyume/ToDo-List-Angular",
-      linkSite: "https://to-do-list-angular-khaki.vercel.app/"
+      linkSite: "https://to-do-list-angular-khaki.vercel.app/",
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: medConAgular,
@@ -197,7 +203,8 @@ export function App() {
       rotas protegidas e integração com APIs. Esse foi o projeto do último módulo do Santander Coders,
       também executado em grupo.`,
       linkRepo: "https://github.com/TheBestGekyume/MedCon-Angular",
-      linkSite: null
+      linkSite: null,
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: bibliotecaPoo,
@@ -206,7 +213,8 @@ export function App() {
        gerenciamento de uma biblioteca, utilizando TypeScript para garantir a tipagem estática e 
        organização do código.`,
       linkRepo: "https://github.com/TheBestGekyume/Biblioteca---TypeScript-POO",
-      linkSite: null
+      linkSite: null,
+      svgPath: [arrayItemSvg[0]],
     },
     {
       imageSrc: hangMan,
@@ -215,7 +223,8 @@ export function App() {
       que permite ao jogador adivinhar palavras de temas como Avatar, Dragon Ball e Naruto. O jogo conta 
       com teclado virtual, dicas dinâmicas via API externa e salva a pontuação no localStorage.`,
       linkRepo: "https://github.com/TheBestGekyume/hagman-ada",
-      linkSite: null
+      linkSite: null,
+      svgPath: [arrayItemSvg[0]],
     },
 
 

@@ -31,14 +31,13 @@ div.card {
 
         .overlay-content {
             border-radius: var(--bs-border-radius);
-            background-color: #1b0a2fd8;
+            background-color: #18012cd8;
             transition: 300ms;
         }
     }
 }
 
 .selected{
-
 
     h5{
         color: #7132b9;
@@ -56,6 +55,8 @@ div.card {
         border: none;
         border-radius: 10px;
         transition: 300ms;
+        min-width: 10rem;
+        max-width: 100%;
         &:hover {
             background-color: #7132b9;
         }
@@ -65,8 +66,9 @@ div.card {
         }
     
         @media screen and (max-width: 768px) {
-            height: 2.5rem;
+            height: 3rem;
             font-size: 1rem;
+            width: 100%;
         }
     }
 

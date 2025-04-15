@@ -6,7 +6,7 @@ export const Projeto = (({ imageSrc, title, description, linkRepo, linkSite, isS
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 1.2}}
+      exit={{ opacity: 0, scale: 1.2 }}
       transition={{ duration: 1 }}
       ref={ref}
     >
@@ -33,7 +33,7 @@ export const Projeto = (({ imageSrc, title, description, linkRepo, linkSite, isS
           <h5 className="text-center fw-bold mb-3 fs-3">{title}</h5>
           <p className="text-white text-center p-0 fs-6">{description}</p>
 
-          <div className="d-grid gap-2 col-11 col-lg-4 gap-3 mx-auto mt-5">
+          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 mt-5">
             <button
               className="btn-custom"
               type="button"
@@ -56,6 +56,7 @@ export const Projeto = (({ imageSrc, title, description, linkRepo, linkSite, isS
               </button>
             )}
           </div>
+
         </div>
       )}
     </motion.div>
