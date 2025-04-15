@@ -4,7 +4,14 @@ export function Contato() {
     return (
         <footer id="contato" className="text-center py-4 border-top">
             <h4 className="pt-1 fw-semibold">Contate-me!</h4>
-            <div className="container d-flex justify-content-evenly flex-wrap py-4">
+            <div className="
+            container
+            d-flex flex-column
+            flex-md-row
+            justify-content-evenly
+            align-items-center
+            gap-5
+            flex-wrap py-4">
 
                 <a
                     href="mailto:contatogekyume@gmail.com"
