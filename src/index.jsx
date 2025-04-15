@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import { App } from './App';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-// Remover ou ajustar conforme necessário
-// import reportWebVitals from './reportWebVitals';
+
+import '@fontsource/rubik';
+import '@fontsource/kode-mono';
+
+import './styles/index.css';
+
+import { App } from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +19,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// Se você quiser medir o desempenho do seu aplicativo, adicione novamente reportWebVitals conforme necessário
-// reportWebVitals(console.log);
