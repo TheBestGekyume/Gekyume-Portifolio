@@ -1,21 +1,20 @@
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import { ItemSvg } from "../ItemSvg/ItemSvg";
 import "./Projeto.scss";
-import { h5 } from "framer-motion/client";
 
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.2, // Delay progressivo nos filhos
+      staggerChildren: 0.125, // Delay progressivo nos filhos
     },
   },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 0, x: 60 },
-  visible: { opacity: 1, y: 0, x: 0, transition: { type: "spring", stiffness: 80 } },
+  hidden: { opacity: 0, y: 0, x: 100, scale: 2},
+  visible: { opacity: 1, y: 0, x: 0, scale: 1 ,transition: { type: "spring", stiffness: 80 } },
 };
 
 export const Projeto = ({
@@ -46,14 +45,26 @@ export const Projeto = ({
           </div>
         </div>
       ) : (
-        <div className="selected mt-2 py-4 mb-5 px-4 border border-3 border-white rounded-4 mx-auto">
-          <div>
-            <h5 className="text-center fw-bold mb-3 fs-3">{title}</h5>
-            <p className="text-white text-center mb-4 fs-6">{description}</p>
+        <div className="selected mt-2 py-4 mb-5 px-3 border border-3 border-white rounded-4 mx-auto">
+
+          <div className="d-flex justify-content-between mb-3">
+            <button
+              type="button"
+              className="btn p-0"
+              onClick={onToggle}
+              aria-label="Voltar para lista de projetos"
+            >
+              <i className="bi bi-x-circle"></i>
+            </button>
+
+            <h5 className="text-center mx-auto fw-bold fs-3 pt-2 px-4">{title}</h5>
+
           </div>
 
+          <p className="text-white text-center mb-4 px-4">{description}</p>
+
           <hr />
-          
+
           {icons && (
             <>
               <h5 className="text-center fw-bold ">TECNOLOGIAS</h5>
@@ -77,7 +88,7 @@ export const Projeto = ({
             </>
           )}
 
-          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 mt-5">
+          <div className="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3 mt-4">
             <button
               className="btn-custom"
               type="button"

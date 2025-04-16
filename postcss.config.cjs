@@ -14,6 +14,13 @@ module.exports = {
         /^w-/,         // exemplo: w-100, w-lg-auto
         /^text-/,      // exemplo: text-center, text-white
         /^btn/,        // exemplo: btn, btn-primary, btn-custom
+        /^position-/, 
+        /^float-/,
+        /^top-/,
+        /^end-/,
+        /^bottom-/,
+        /^start-/,
+        /^bi/
       ],
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
     }),

@@ -16,8 +16,6 @@ import ImgToDoList from "../Assets/Images/Projetos/ToDoList.webp";
 import bibliotecaPoo from "../Assets/Images/Projetos/BibliotecaPoo.webp";
 import medConAgular from "../Assets/Images/Projetos/medConAngular.webp";
 import hangMan from "../Assets/Images/Projetos/Hangman.webp";
-import { color } from "framer-motion";
-import { line, link, path, title } from "framer-motion/client";
 
 export function App() {
 
