@@ -31,20 +31,29 @@ div.card {
 
         .overlay-content {
             border-radius: var(--bs-border-radius);
-            background-color: #1b0a2fd8;
+            background-color: #18012cd8;
             transition: 300ms;
         }
     }
 }
 
-.selected{
-
-
-    h5{
+.selected {
+    h5 {
         color: #7132b9;
     }
 
-    p{
+    .btn {
+        transition: color 150ms !important;
+        &:active {
+            border: none !important;
+        }
+
+        .bi-x-circle {
+            font-size: 1.75rem;
+        }
+    }
+
+    p {
         font-size: 1rem;
     }
 
@@ -56,6 +65,8 @@ div.card {
         border: none;
         border-radius: 10px;
         transition: 300ms;
+        min-width: 10rem;
+        max-width: 100%;
         &:hover {
             background-color: #7132b9;
         }
@@ -63,10 +74,11 @@ div.card {
             background-color: #7132b940;
             color: #aaa;
         }
-    
+
         @media screen and (max-width: 768px) {
-            height: 2.5rem;
+            height: 3rem;
             font-size: 1rem;
+            width: 100%;
         }
     }
 
@@ -74,7 +86,6 @@ div.card {
         width: 50%;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .overlay-content {

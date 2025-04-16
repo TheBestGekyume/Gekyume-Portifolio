@@ -105,11 +105,25 @@ export function App() {
       path: "M12.504 0c-.155 0-.315.008-.48.021-4.226.333-3.105 4.807-3.17 6.298-.076 1.092-.3 1.953-1.05 3.02-.885 1.051-2.127 2.75-2.716 4.521-.278.832-.41 1.684-.287 2.489a.424.424 0 00-.11.135c-.26.268-.45.6-.663.839-.199.199-.485.267-.797.4-.313.136-.658.269-.864.68-.09.189-.136.394-.132.602 0 .199.027.4.055.536.058.399.116.728.04.97-.249.68-.28 1.145-.106 1.484.174.334.535.47.94.601.81.2 1.91.135 2.774.6.926.466 1.866.67 2.616.47.526-.116.97-.464 1.208-.946.587-.003 1.23-.269 2.26-.334.699-.058 1.574.267 2.577.2.025.134.063.198.114.333l.003.003c.391.778 1.113 1.132 1.884 1.071.771-.06 1.592-.536 2.257-1.306.631-.765 1.683-1.084 2.378-1.503.348-.199.629-.469.649-.853.023-.4-.2-.811-.714-1.376v-.097l-.003-.003c-.17-.2-.25-.535-.338-.926-.085-.401-.182-.786-.492-1.046h-.003c-.059-.054-.123-.067-.188-.135a.357.357 0 00-.19-.064c.431-1.278.264-2.55-.173-3.694-.533-1.41-1.465-2.638-2.175-3.483-.796-1.005-1.576-1.957-1.56-3.368.026-2.152.236-6.133-3.544-6.139zm.529 3.405h.013c.213 0 .396.062.584.198.19.135.33.332.438.533.105.259.158.459.166.724 0-.02.006-.04.006-.06v.105a.086.086 0 01-.004-.021l-.004-.024a1.807 1.807 0 01-.15.706.953.953 0 01-.213.335.71.71 0 00-.088-.042c-.104-.045-.198-.064-.284-.133a1.312 1.312 0 00-.22-.066c.05-.06.146-.133.183-.198.053-.128.082-.264.088-.402v-.02a1.21 1.21 0 00-.061-.4c-.045-.134-.101-.2-.183-.333-.084-.066-.167-.132-.267-.132h-.016c-.093 0-.176.03-.262.132a.8.8 0 00-.205.334 1.18 1.18 0 00-.09.4v.019c.002.089.008.179.02.267-.193-.067-.438-.135-.607-.202a1.635 1.635 0 01-.018-.2v-.02a1.772 1.772 0 01.15-.768c.082-.22.232-.406.43-.533a.985.985 0 01.594-.2zm-2.962.059h.036c.142 0 .27.048.399.135.146.129.264.288.344.465.09.199.14.4.153.667v.004c.007.134.006.2-.002.266v.08c-.03.007-.056.018-.083.024-.152.055-.274.135-.393.2.012-.09.013-.18.003-.267v-.015c-.012-.133-.04-.2-.082-.333a.613.613 0 00-.166-.267.248.248 0 00-.183-.064h-.021c-.071.006-.13.04-.186.132a.552.552 0 00-.12.27.944.944 0 00-.023.33v.015c.012.135.037.2.08.334.046.134.098.2.166.268.01.009.02.018.034.024-.07.057-.117.07-.176.136a.304.304 0 01-.131.068 2.62 2.62 0 01-.275-.402 1.772 1.772 0 01-.155-.667 1.759 1.759 0 01.08-.668 1.43 1.43 0 01.283-.535c.128-.133.26-.2.418-.2zm1.37 1.706c.332 0 .733.065 1.216.399.293.2.523.269 1.052.468h.003c.255.136.405.266.478.399v-.131a.571.571 0 01.016.47c-.123.31-.516.643-1.063.842v.002c-.268.135-.501.333-.775.465-.276.135-.588.292-1.012.267a1.139 1.139 0 01-.448-.067 3.566 3.566 0 01-.322-.198c-.195-.135-.363-.332-.612-.465v-.005h-.005c-.4-.246-.616-.512-.686-.71-.07-.268-.005-.47.193-.6.224-.135.38-.271.483-.336.104-.074.143-.102.176-.131h.002v-.003c.169-.202.436-.47.839-.601.139-.036.294-.065.466-.065zm2.8 2.142c.358 1.417 1.196 3.475 1.735 4.473.286.534.855 1.659 1.102 3.024.156-.005.33.018.513.064.646-1.671-.546-3.467-1.089-3.966-.22-.2-.232-.335-.123-.335.59.534 1.365 1.572 1.646 2.757.13.535.16 1.104.021 1.67.067.028.135.06.205.067 1.032.534 1.413.938 1.23 1.537v-.043c-.06-.003-.12 0-.18 0h-.016c.151-.467-.182-.825-1.065-1.224-.915-.4-1.646-.336-1.77.465-.008.043-.013.066-.018.135-.068.023-.139.053-.209.064-.43.268-.662.669-.793 1.187-.13.533-.17 1.156-.205 1.869v.003c-.02.334-.17.838-.319 1.35-1.5 1.072-3.58 1.538-5.348.334a2.645 2.645 0 00-.402-.533 1.45 1.45 0 00-.275-.333c.182 0 .338-.03.465-.067a.615.615 0 00.314-.334c.108-.267 0-.697-.345-1.163-.345-.467-.931-.995-1.788-1.521-.63-.4-.986-.87-1.15-1.396-.165-.534-.143-1.085-.015-1.645.245-1.07.873-2.11 1.274-2.763.107-.065.037.135-.408.974-.396.751-1.14 2.497-.122 3.854a8.123 8.123 0 01.647-2.876c.564-1.278 1.743-3.504 1.836-5.268.048.036.217.135.289.202.218.133.38.333.59.465.21.201.477.335.876.335.039.003.075.006.11.006.412 0 .73-.134.997-.268.29-.134.52-.334.74-.4h.005c.467-.135.835-.402 1.044-.7zm2.185 8.958c.037.6.343 1.245.882 1.377.588.134 1.434-.333 1.791-.765l.211-.01c.315-.007.577.01.847.268l.003.003c.208.199.305.53.391.876.085.4.154.78.409 1.066.486.527.645.906.636 1.14l.003-.007v.018l-.003-.012c-.015.262-.185.396-.498.595-.63.401-1.746.712-2.457 1.57-.618.737-1.37 1.14-2.036 1.191-.664.053-1.237-.2-1.574-.898l-.005-.003c-.21-.4-.12-1.025.056-1.69.176-.668.428-1.344.463-1.897.037-.714.076-1.335.195-1.814.12-.465.308-.797.641-.984l.045-.022zm-10.814.049h.01c.053 0 .105.005.157.014.376.055.706.333 1.023.752l.91 1.664.003.003c.243.533.754 1.064 1.189 1.637.434.598.77 1.131.729 1.57v.006c-.057.744-.48 1.148-1.125 1.294-.645.135-1.52.002-2.395-.464-.968-.536-2.118-.469-2.857-.602-.369-.066-.61-.2-.723-.4-.11-.2-.113-.602.123-1.23v-.004l.002-.003c.117-.334.03-.752-.027-1.118-.055-.401-.083-.71.043-.94.16-.334.396-.4.69-.533.294-.135.64-.202.915-.47h.002v-.002c.256-.268.445-.601.668-.838.19-.201.38-.336.663-.336zm7.159-9.074c-.435.201-.945.535-1.488.535-.542 0-.97-.267-1.28-.466-.154-.134-.28-.268-.373-.335-.164-.134-.144-.333-.074-.333.109.016.129.134.199.2.096.066.215.2.36.333.292.2.68.467 1.167.467.485 0 1.053-.267 1.398-.466.195-.135.445-.334.648-.467.156-.136.149-.267.279-.267.128.016.034.134-.147.332a8.097 8.097 0 01-.69.468zm-1.082-1.583V5.64c-.006-.02.013-.042.029-.05.074-.043.18-.027.26.004.063 0 .16.067.15.135-.006.049-.085.066-.135.066-.055 0-.092-.043-.141-.068-.052-.018-.146-.008-.163-.065zm-.551 0c-.02.058-.113.049-.166.066-.047.025-.086.068-.14.068-.05 0-.13-.02-.136-.068-.01-.066.088-.133.15-.133.08-.031.184-.047.259-.005.019.009.036.03.03.05v.02h.003z"
     },
     {
+      title: "PHP",
+      color: "#777BB4",
+      link: "https://www.php.net/",
+      path: "M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z"
+    },
+
+    {
       title: "MySql",
       color: "#4479A1",
       link: "https://www.mysql.com/",
       path: "M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"
-    }
+    },
+    {
+      title: "JWT",
+      color: "#FB015B",
+      link: "https://jwt.io/",
+      path: "M10.2 0v6.456L12 8.928l1.8-2.472V0zm3.6 6.456v3.072l2.904-.96L20.52 3.36l-2.928-2.136zm2.904 2.112l-1.8 2.496 2.928.936 6.144-1.992-1.128-3.432zM17.832 12l-2.928.936 1.8 2.496 6.144 1.992 1.128-3.432zm-1.128 3.432l-2.904-.96v3.072l3.792 5.232 2.928-2.136zM13.8 17.544L12 15.072l-1.8 2.472V24h3.6zm-3.6 0v-3.072l-2.904.96L3.48 20.64l2.928 2.136zm-2.904-2.112l1.8-2.496L6.168 12 .024 13.992l1.128 3.432zM6.168 12l2.928-.936-1.8-2.496-6.144-1.992-1.128 3.432zm1.128-3.432l2.904.96V6.456L6.408 1.224 3.48 3.36Z"
+    },
+
 
   ];
 
@@ -122,7 +136,10 @@ export function App() {
           A tabela permite ordenar os produtos de forma crescente ou decrescente com base em seu valor,
           oferecendo uma maneira prática de visualizar e organizar as informações.`,
       linkRepo: "https://github.com/TheBestGekyume/Form-React",
-      linkSite: "https://thebestgekyume.github.io/Form-React/"
+      linkSite: "https://thebestgekyume.github.io/Form-React/",
+      icons: ["HTML5", "CSS3", "JavaScript", "React", "Bootstrap"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: ImgRainyNight,
@@ -134,7 +151,10 @@ export function App() {
           proporcionando uma experiência com foco no terror psicológico.
           Além disso, inclui efeitos sonoros e visuais, aumentando a imersividade. Experimente!`,
       linkRepo: "https://github.com/TheBestGekyume/Rainy-Night",
-      linkSite: "https://thebestgekyume.github.io/Rainy-Night/"
+      linkSite: "https://thebestgekyume.github.io/Rainy-Night/",
+      icons: ["HTML5", "CSS3", "JavaScript", "Bootstrap"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: ImgRiotCopy,
@@ -146,24 +166,28 @@ export function App() {
       uma melhor compreensão sobre o trabalho em equipe e a importância da comunicação
       entre os membros do grupo.`,
       linkRepo: "https://github.com/TheBestGekyume/Riot-Copy",
-      linkSite: "https://thebestgekyume.github.io/Riot-Copy"
+      linkSite: "https://thebestgekyume.github.io/Riot-Copy",
+      icons: ["HTML5", "CSS3", "Sass", "JavaScript", "Bootstrap"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: ImgViacaoCalango,
       title: "Viação Calango",
-      description: `A Viação Calango foi um projeto acadêmico desenvolvido em dupla para a disciplina de 
-      Desenvolvimento Web, com foco na construção do back-end de um sistema de viagens. O projeto foi 
-      estruturado utilizando PHP para a API, MySQL e SQL para o gerenciamento do banco de dados,
-      enquanto o React foi empregado no front-end para proporcionar uma interface dinâmica e intuitiva.
-      Além disso, o Axios foi utilizado para facilitar a comunicação entre o front-end e o back-end,
-      garantindo requisições rápidas e eficientes.  
-      Uma das partes mais importantes do projeto foi a definição de uma regra de negócios bem estruturada,
-      criada por nós mesmos. Com base nessa lógica, desenvolvemos todo o sistema de forma organizada,
-      garantindo que cada funcionalidade estivesse alinhada com os objetivos propostos. Essa abordagem
-      permitiu uma experiência prática valiosa, desde a concepção das regras até a implementação completa
-      do site.`,
+      description: `A Viação Calango foi um projeto acadêmico desenvolvido em dupla
+      para a disciplina de Desenvolvimento Web, com foco na construção do back-end
+      de um sistema de viagens. Utilizamos PHP para a API, MySQL/SQL para o banco de
+      dados e React no front-end, garantindo uma interface dinâmica e intuitiva.
+      O Axios facilitou a comunicação entre as camadas, permitindo requisições rápidas
+      e eficientes. Um dos destaques do projeto foi a criação de uma regra de negócios
+      própria, que guiou toda a implementação de forma estruturada. Essa experiência 
+      proporcionou uma prática completa, desde a definição da lógica até a entrega final 
+      do sistema.`,
       linkRepo: "https://github.com/TheBestGekyume/ViacaoCalango",
-      linkSite: null
+      linkSite: null,
+      icons: ["HTML5", "CSS3", "Sass", "JavaScript", "React", "PHP", "MySql", "Bootstrap"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: ImgMorgannaWebsite,
@@ -173,11 +197,14 @@ export function App() {
       Morganna Lessa. O site, estruturado como um portfólio de advocacia,
       foi desenvolvido do zero, desde o design até o deploy, com base em conversas diretas,
       apresentação de ideias e testes para garantir que atendesse às suas necessidades.
-      Mais do que aprender novas tecnologias ou otimizar um site real,
+      Mais do que aprender novas icons ou otimizar um site real,
       este projeto me proporcionou uma vivência essencial: o contato direto com um cliente
        e a responsabilidade de cumprir prazos.`,
       linkRepo: "https://github.com/TheBestGekyume/WebSiteMorganna",
-      linkSite: "https://morgannalessa.netlify.app/"
+      linkSite: "https://morgannalessa.netlify.app/",
+      icons: ["HTML5", "CSS3", "Sass", "JavaScript", "React", "Bootstrap"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: ImgToDoList,
@@ -186,7 +213,10 @@ export function App() {
       Angular e Bootstrap, e utiliza uma API customizada para operações de CRUD. Esse foi um dos
       trabalhos em equipe que realizei quando estava no programa Santander Coders.`,
       linkRepo: "https://github.com/TheBestGekyume/ToDo-List-Angular",
-      linkSite: "https://to-do-list-angular-khaki.vercel.app/"
+      linkSite: "https://to-do-list-angular-khaki.vercel.app/",
+      icons: ["HTML5", "CSS3", "TypeScript", "Angular", "Bootstrap"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: medConAgular,
@@ -197,16 +227,22 @@ export function App() {
       rotas protegidas e integração com APIs. Esse foi o projeto do último módulo do Santander Coders,
       também executado em grupo.`,
       linkRepo: "https://github.com/TheBestGekyume/MedCon-Angular",
-      linkSite: null
+      linkSite: null,
+      icons: ["HTML5", "CSS3", "TypeScript", "Angular", "Bootstrap", "JWT"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: bibliotecaPoo,
       title: "Biblioteca - TypeScript POO",
-      description: `Este projeto consiste em desenvolver uma aplicação web que simula o sistema de
+      description: `Este projeto consiste em desenvolver uma aplicação que simula o sistema de
        gerenciamento de uma biblioteca, utilizando TypeScript para garantir a tipagem estática e 
        organização do código.`,
       linkRepo: "https://github.com/TheBestGekyume/Biblioteca---TypeScript-POO",
-      linkSite: null
+      linkSite: null,
+      icons: ["TypeScript"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
     {
       imageSrc: hangMan,
@@ -215,9 +251,11 @@ export function App() {
       que permite ao jogador adivinhar palavras de temas como Avatar, Dragon Ball e Naruto. O jogo conta 
       com teclado virtual, dicas dinâmicas via API externa e salva a pontuação no localStorage.`,
       linkRepo: "https://github.com/TheBestGekyume/hagman-ada",
-      linkSite: null
+      linkSite: null,
+      icons: ["HTML5", "CSS3", "JavaScript"].map(name =>
+        arrayItemSvg.find(icon => icon.title === name)
+      ).filter(Boolean),
     },
-
 
   ];
 
@@ -228,7 +266,7 @@ export function App() {
       <Navbar />
 
       <Header>
-        {arrayItemSvg.map((item, index) => (
+        {arrayItemSvg.slice(0, 14).map((item, index) => (
           <ItemSvg
             key={index}
             title={item.title}
@@ -239,7 +277,7 @@ export function App() {
         ))}
       </Header>
 
-      <Projetos projetos={arrayProjetos} />
+      <Projetos projetos={arrayProjetos} icons={arrayItemSvg} />
 
       {/* <Experiencia></Experiencia> */}
 
