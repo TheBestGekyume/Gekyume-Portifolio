@@ -11,7 +11,7 @@ export function Projetos({ projetos }) {
 
   useLayoutEffect(() => {
     if (isSingleView && divAnimadaRef.current) {
-      const yOffset = 30;
+      const yOffset = 45;
       const y = divAnimadaRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
@@ -37,22 +37,6 @@ export function Projetos({ projetos }) {
         {/* VIEW DE PROJETO ÚNICO */}
         {isSingleView && (
           <div className="single-view-wrapper">
-            {/* <button
-              className="btn back-button"
-              onClick={handleReturnToList}
-              aria-label="Voltar para lista de projetos"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="48"
-                height="48"
-                fill="white"
-                className="bi bi-arrow-left-circle-fill arrow-back"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
-              </svg>
-            </button> */}
 
             <div className="px-1 px-lg-5 mx-auto mx-lg-5">
               <AnimatePresence mode="wait">

@@ -26,7 +26,7 @@ export function Navbar() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarCollapse">
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-2 mt-3 mt-lg-0">
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 mt-3 mt-lg-0">
 
             <li className="nav-item">
               <Link
@@ -54,7 +54,7 @@ export function Navbar() {
               </Link>
             </li>
 
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
                 className="link-react"
                 to="experiencia"
@@ -65,7 +65,7 @@ export function Navbar() {
               >
                 Experiência
               </Link>
-            </li> */}
+            </li>
 
             <li className="nav-item">
               <Link
