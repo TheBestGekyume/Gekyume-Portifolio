@@ -54,6 +54,10 @@ nav.navbar-style {
                 color: #7132b9;
                 border-bottom-color: none;
             }
+
+            @media (max-width: 1260px) {
+                font-size: 1rem;
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { ItemSvg } from "../ItemSvg/ItemSvg";
 import "./Projeto.scss";
 
@@ -7,7 +7,7 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.125, // Delay progressivo nos filhos
+      staggerChildren: 0.125,
     },
   },
 };

@@ -279,7 +279,7 @@ export function App() {
 
       <Projetos projetos={arrayProjetos} icons={arrayItemSvg} />
 
-      {/* <Experiencia></Experiencia> */}
+      <Experiencia></Experiencia>
 
       <Formacao />
 
