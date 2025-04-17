@@ -16,6 +16,8 @@ import ImgToDoList from "../Assets/Images/Projetos/ToDoList.webp";
 import bibliotecaPoo from "../Assets/Images/Projetos/BibliotecaPoo.webp";
 import medConAgular from "../Assets/Images/Projetos/medConAngular.webp";
 import hangMan from "../Assets/Images/Projetos/Hangman.webp";
+import Particulas from "./Components/Particulas/Particulas";
+
 
 export function App() {
 
@@ -263,6 +265,7 @@ export function App() {
   return (
     <div className="App">
 
+
       <Navbar />
 
       <Header>
@@ -286,6 +289,9 @@ export function App() {
       <Sobre />
 
       <Contato />
+
+      <Particulas id="particulas" />
+
     </div>
   );
 }

@@ -55,27 +55,6 @@ export function Experiencia() {
                 </div>
             </div>
 
-
-            {/* <div>
-                <p className="text-center m-0 p-0 w-50 mx-auto">
-                    
-                </p>
-            </div>
-
-            <div>
-                <p className="text-center m-0 p-0 w-50 mx-auto">
-                </p>
-            </div>
-
-
-            <div>
-                <p className="text-center m-0 p-0 w-50 mx-auto">
-                    
-                </p>
-            </div> */}
-
-
-
         </section>
 
     )

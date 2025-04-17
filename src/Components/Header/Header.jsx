@@ -1,11 +1,9 @@
 import "./Header.scss";
 import React from "react";
-import Particulas from "../Particulas/Particulas";
 
 export function Header({ children }) {
   return (
     <section id="header" className="d-flex justify-content-center align-items-center text-white">
-      <Particulas id="particulas" />
       <div className="div-content py-4 px-3">
         <h2>Boa-Vindas ao Meu Portifólio!</h2>
 
