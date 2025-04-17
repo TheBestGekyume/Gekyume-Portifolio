@@ -7,25 +7,10 @@ module.exports = {
     purgecss({
       content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
       safelist: [
-        // /^d-/,
-        // /^flex-/,
-        // /^gap-/,
-        // /^col-/,
-        // /^row/,
-        // /^w-/,
-        // /^text-/,
-        // /^border-/,
-        // /^ps-/,
-        // /^pe-/,   
-        // /^mx-/,
-        // /^btn/,
-        // /^position-/,
-        // /^float-/,
-        // /^top-/,
-        // /^end-/,
-        // /^bottom-/,
-        // /^start-/,
-        // /^bi/
+          /^collapse/,
+          /^collapsing/,
+          /^show/
+        
       ],
       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
     }),
