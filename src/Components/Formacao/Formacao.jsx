@@ -61,7 +61,7 @@ export function Formacao() {
           {formacoes.map((item, index) => (
             <div key={index} className={`carousel-item animate-slide p-5 ${index === 0 ? "active" : ""}`}>
               <div className="carroItem mx-auto">
-                <div className="border border-5 rounded-3">
+                <div className="border rounded-3">
                   <img src={item.img} className="rounded-top-3" alt={item.title} />
                   <h4 className="my-3">{item.title}</h4>
                 </div>
