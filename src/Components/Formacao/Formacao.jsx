@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Formacao.scss";
 import ImgSenacWebDev from "../../../Assets/Images/Certificados/SenacWebDev.webp";
 import ImgAdaWebDev from "../../../Assets/Images/Certificados/AdaWebDev.webp";
@@ -14,9 +15,33 @@ const formacoes = [
 ];
 
 export function Formacao() {
+  useEffect(() => {
+    const carousel = document.getElementById("carousel");
+    const items = carousel.querySelectorAll(".carousel-item");
+
+    const handleSlide = () => {
+      items.forEach((item) => {
+        item.classList.remove("animate-slide");
+      });
+
+      const activeItem = carousel.querySelector(".carousel-item.active");
+      if (activeItem) {
+        // Força o reflow pra "reiniciar" a animação
+        void activeItem.offsetWidth;
+        activeItem.classList.add("animate-slide");
+      }
+    };
+
+    carousel.addEventListener("slid.bs.carousel", handleSlide);
+
+    return () => {
+      carousel.removeEventListener("slid.bs.carousel", handleSlide);
+    };
+  }, []);
+
   return (
     <section id="formacao" className="container-flex py-5">
-      <h3 className=" text-center fw-bolder ">Certificados</h3>
+      <h3 className="text-center fw-bolder">Certificados</h3>
 
       <div id="carousel" className="carousel slide container text-white" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -35,8 +60,8 @@ export function Formacao() {
         <div className="carousel-inner pb-2">
           {formacoes.map((item, index) => (
             <div key={index} className={`carousel-item p-5 ${index === 0 ? "active" : ""}`}>
-              <div className="carroItem">
-                <div className="border rounded-3">
+              <div className="carroItem mx-auto">
+                <div className="border border-5 rounded-3">
                   <img src={item.img} className="rounded-top-3" alt={item.title} />
                   <h4 className="my-3">{item.title}</h4>
                 </div>
