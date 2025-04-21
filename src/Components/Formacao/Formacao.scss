@@ -1,60 +1,86 @@
-section#formacao{
+section#formacao {
     background-color: black;
     // margin-top: 8rem;
 
-    div.carousel-indicators{
-        button{
+    div.carousel-indicators {
+        button {
             width: 1.25rem;
-            height:1.25rem;
+            height: 1.25rem;
             margin-inline: 1rem;
         }
     }
 
-    h3{
+    h3 {
         color: #7132b9;
-        font-size: 2rem;        
+        font-size: 2rem;
     }
+    .carousel-item.animate-slide {
+        animation: fadeInUp 1s ease forwards;
 
-    .carroItem{
-        display: flex;
-        justify-content: center;
-        object-fit: fill;
-        text-align: center;
-
-        h4{
-            font-size: 1.5rem;
-            @media screen and (max-width: 768px){
-                font-size: 1.25rem;
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
             }
         }
 
-        img{
+        &:active {
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .carroItem {
+            display: flex;
+            justify-content: center;
+            width: fit-content;
             object-fit: fill;
-            width: 750px;
-            height: 450px;
-            opacity: 0.75;
-            scale: 0.95;
+            text-align: center;
             transition: 300ms;
-            
-            &:hover{
-                opacity: 0.95;
-                scale: 1.0;
-                box-shadow: 0px 0px 25px 2px #fff;
+            &:hover {
+                transform: translateY(-10px) scale(1.025);
             }
 
-            @media screen and (max-width: 1400px){
-                width: 550px;
-                height: 250px;
+            h4 {
+                font-size: 1.5rem;
+                @media screen and (max-width: 768px) {
+                    font-size: 1.25rem;
+                }
+
+                @media screen and (max-width: 576px) {
+                    font-size: 1rem;
+                }
             }
 
-            @media screen and (max-width: 576px){
-                width: 400px;
-                height: 200px;
-            }
+            img {
+                object-fit: fill;
+                width: 750px;
+                height: 450px;
+                opacity: 0.75;
+                transition: 300ms;
 
-            @media screen and (max-width: 400px){
-                width: 300px;
-                height: 175px;
+                &:hover {
+                    opacity: 0.95;
+                    box-shadow: 0px 0px 25px 2px #fff;
+                }
+
+                @media screen and (max-width: 1400px) {
+                    width: 550px;
+                    height: 250px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    width: 400px;
+                    height: 200px;
+                }
+
+                @media screen and (max-width: 576px) {
+                    width: 100%;
+                }
+
+
             }
         }
     }
