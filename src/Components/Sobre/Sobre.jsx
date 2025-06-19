@@ -48,7 +48,7 @@ export function Sobre() {
                         <h3 className="mb-4 fw-bold fs-2">Sobre Mim</h3>
 
                         <p className="px-2 px-md-0">
-                            Sou estudante de Análise e Desenvolvimento de Sistemas, tenho 19 anos de idade e me
+                            Sou estudante de Análise e Desenvolvimento de Sistemas, tenho 20 anos de idade e me
                             interesso especialmente nas áreas de Desenvolvimento Web e Cibersegurança. Gosto de 
                             explorar como a tecnologia pode impactar positivamente o dia a dia das pessoas, seja 
                             promovendo inclusão digital, otimizando tarefas rotineiras ou oferecendo formas seguras
